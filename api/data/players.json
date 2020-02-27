@@ -1,0 +1,214 @@
+{
+"players": [
+    {
+      "avatar": "https://platform-static-files.s3.amazonaws.com/premierleague/photos/players/110x140/p11334.png",
+      "name": "Petr Cech",
+      "number": 33,
+      "position": "Goalkeeper"
+    },
+    {
+      "avatar": "https://platform-static-files.s3.amazonaws.com/premierleague/photos/players/110x140/p113534.png",
+      "name": "Matt Macey",
+      "number": 54,
+      "position": "Goalkeeper"
+    },
+    {
+      "avatar": "https://platform-static-files.s3.amazonaws.com/premierleague/photos/players/110x140/Photo-Missing.png",
+      "name": "Dejan Iliev",
+      "number": 50,
+      "position": "Goalkeeper"
+    },
+    {
+      "avatar": "https://platform-static-files.s3.amazonaws.com/premierleague/photos/players/110x140/p111457.png",
+      "name": "Sead Kolasinac",
+      "number": 31,
+      "position": "Defender"
+    },
+    {
+      "avatar": "https://platform-static-files.s3.amazonaws.com/premierleague/photos/players/110x140/p27334.png",
+      "name": "Mathieu Debuchy",
+      "number": 2,
+      "position": "Defender"
+    },
+    {
+      "avatar": "https://platform-static-files.s3.amazonaws.com/premierleague/photos/players/110x140/p17127.png",
+      "name": "Per Mertesacker",
+      "number": 4,
+      "position": "Defender"
+    },
+    {
+      "avatar": "https://platform-static-files.s3.amazonaws.com/premierleague/photos/players/110x140/p51507.png",
+      "name": "Laurent Koscielny",
+      "number": 6,
+      "position": "Defender"
+    },
+    {
+      "avatar": "https://platform-static-files.s3.amazonaws.com/premierleague/photos/players/110x140/p156074.png",
+      "name": "Rob Holding",
+      "number": 16,
+      "position": "Defender"
+    },
+    {
+      "avatar": "https://platform-static-files.s3.amazonaws.com/premierleague/photos/players/110x140/p38411.png",
+      "name": "Nacho Monreal",
+      "number": 18,
+      "position": "Defender"
+    },
+    {
+      "avatar": "https://platform-static-files.s3.amazonaws.com/premierleague/photos/players/110x140/p69140.png",
+      "name": "Shkodran Mustafi",
+      "number": 20,
+      "position": "Defender"
+    },
+    {
+      "avatar": "https://platform-static-files.s3.amazonaws.com/premierleague/photos/players/110x140/p101184.png",
+      "name": "Calum Chambers",
+      "number": 21,
+      "position": "Defender"
+    },
+    {
+      "avatar": "https://platform-static-files.s3.amazonaws.com/premierleague/photos/players/110x140/p98745.png",
+      "name": "Héctor Bellerín",
+      "number": 24,
+      "position": "Defender"
+    },
+    {
+      "avatar": "https://platform-static-files.s3.amazonaws.com/premierleague/photos/players/110x140/Photo-Missing.png",
+      "name": "Jordi Osei-Tutu",
+      "number": null,
+      "position": "Defender"
+    },
+    {
+      "avatar": "https://platform-static-files.s3.amazonaws.com/premierleague/photos/players/110x140/Photo-Missing.png",
+      "name": "Konstantinos Mavropanos",
+      "number": 27,
+      "position": "Defender"
+    },
+    {
+      "avatar": "https://platform-static-files.s3.amazonaws.com/premierleague/photos/players/110x140/p41792.png",
+      "name": "Aaron Ramsey",
+      "number": 8,
+      "position": "Midfielder"
+    },
+    {
+      "avatar": "https://platform-static-files.s3.amazonaws.com/premierleague/photos/players/110x140/p54102.png",
+      "name": "Jack Wilshere",
+      "number": 10,
+      "position": "Midfielder"
+    },
+    {
+      "avatar": "https://platform-static-files.s3.amazonaws.com/premierleague/photos/players/110x140/p37605.png",
+      "name": "Mesut Özil",
+      "number": 11,
+      "position": "Midfielder"
+    },
+    {
+      "avatar": "https://platform-static-files.s3.amazonaws.com/premierleague/photos/players/110x140/p153133.png",
+      "name": "Alex Iwobi",
+      "number": 17,
+      "position": "Midfielder"
+    },
+    {
+      "avatar": "https://platform-static-files.s3.amazonaws.com/premierleague/photos/players/110x140/p19524.png",
+      "name": "Santiago Cazorla",
+      "number": 19,
+      "position": "Midfielder"
+    },
+    {
+      "avatar": "https://platform-static-files.s3.amazonaws.com/premierleague/photos/players/110x140/p84450.png",
+      "name": "Granit Xhaka",
+      "number": 29,
+      "position": "Midfielder"
+    },
+    {
+      "avatar": "https://platform-static-files.s3.amazonaws.com/premierleague/photos/players/110x140/p153256.png",
+      "name": "Mohamed Elneny",
+      "number": 35,
+      "position": "Midfielder"
+    },
+    {
+      "avatar": "https://platform-static-files.s3.amazonaws.com/premierleague/photos/players/110x140/p154043.png",
+      "name": "Ainsley Maitland-Niles",
+      "number": 30,
+      "position": "Midfielder"
+    },
+    {
+      "avatar": "https://platform-static-files.s3.amazonaws.com/premierleague/photos/players/110x140/p200089.png",
+      "name": "Joe Willock",
+      "number": 69,
+      "position": "Midfielder"
+    },
+    {
+      "avatar": "https://platform-static-files.s3.amazonaws.com/premierleague/photos/players/110x140/p208987.png",
+      "name": "Jeff Reine-Adelaide",
+      "number": 22,
+      "position": "Midfielder"
+    },
+    {
+      "avatar": "https://platform-static-files.s3.amazonaws.com/premierleague/photos/players/110x140/Photo-Missing.png",
+      "name": "Vlad Dragomir",
+      "number": 44,
+      "position": "Midfielder"
+    },
+    {
+      "avatar": "https://platform-static-files.s3.amazonaws.com/premierleague/photos/players/110x140/Photo-Missing.png",
+      "name": "Charlie Gilmour",
+      "number": 47,
+      "position": "Midfielder"
+    },
+    {
+      "avatar": "https://platform-static-files.s3.amazonaws.com/premierleague/photos/players/110x140/Photo-Missing.png",
+      "name": "Marcus McGuane",
+      "number": 58,
+      "position": "Midfielder"
+    },
+    {
+      "avatar": "https://platform-static-files.s3.amazonaws.com/premierleague/photos/players/110x140/p57249.png",
+      "name": "Henrikh Mkhitaryan",
+      "number": 7,
+      "position": "Midfielder"
+    },
+    {
+      "avatar": "https://platform-static-files.s3.amazonaws.com/premierleague/photos/players/110x140/p44346.png",
+      "name": "Olivier Giroud",
+      "number": 12,
+      "position": "Forward"
+    },
+    {
+      "avatar": "https://platform-static-files.s3.amazonaws.com/premierleague/photos/players/110x140/p50175.png",
+      "name": "Danny Welbeck",
+      "number": 23,
+      "position": "Forward"
+    },
+    {
+      "avatar": "https://platform-static-files.s3.amazonaws.com/premierleague/photos/players/110x140/p59966.png",
+      "name": "Alexandre Lacazette",
+      "number": 9,
+      "position": "Forward"
+    },
+    {
+      "avatar": "https://platform-static-files.s3.amazonaws.com/premierleague/photos/players/110x140/p200641.png",
+      "name": "Reiss Nelson",
+      "number": 61,
+      "position": "Forward"
+    },
+    {
+      "avatar": "https://platform-static-files.s3.amazonaws.com/premierleague/photos/players/110x140/Photo-Missing.png",
+      "name": "Eddie Nketiah",
+      "number": 62,
+      "position": "Forward"
+    },
+    {
+      "avatar": "https://platform-static-files.s3.amazonaws.com/premierleague/photos/players/110x140/p147675.png",
+      "name": "Chuba Akpom",
+      "number": 32,
+      "position": "Forward"
+    },
+    {
+      "avatar": "https://platform-static-files.s3.amazonaws.com/premierleague/photos/players/110x140/Photo-Missing.png",
+      "name": "Eddie Nketiah",
+      "number": 62,
+      "position": "Forward"
+    }
+]
+}

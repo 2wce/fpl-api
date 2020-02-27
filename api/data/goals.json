@@ -1,0 +1,243 @@
+{
+"standings": [
+  {
+    "position": {
+      "current": 1,
+      "previous": 1
+    },
+    "clubId": "WzU1kE2hECFHPRcoGebf",
+    "played": 26,
+    "won": 22,
+    "drawn": 3,
+    "lost": 1
+  },
+  {
+    "position": {
+      "current": 2,
+      "previous": 2
+    },
+    "clubId": "3trmgNVApjM27LbJ1Opl",
+    "played": 26,
+    "won": 17,
+    "drawn": 5,
+    "lost": 4,
+    "points": 56
+  },
+  {
+    "position": {
+      "current": 3,
+      "previous": 3
+    },
+    "clubId": "f7030FgNdeeNGFO2RcvQ",
+    "played": 25,
+    "won": 14,
+    "drawn": 8,
+    "lost": 3,
+    "points": 50
+  },
+  {
+    "position": {
+      "current": 4,
+      "previous": 4
+    },
+    "clubId": "s2EPIPQd1YZKPomo7omF",
+    "played": 25,
+    "won": 15,
+    "drawn": 5,
+    "lost": 5,
+    "points": 50
+  },
+  {
+    "position": {
+      "current": 5,
+      "previous": 5
+    },
+    "clubId": "jXXTSbQXeSjazFIIUTDz",
+    "played": 25,
+    "won": 14,
+    "drawn": 6,
+    "lost": 5,
+    "points": 48
+  },
+  {
+    "position": {
+      "current": 6,
+      "previous": 6
+    },
+    "clubId": "fyd8XcpOA4a3q7Ov4TmZ",
+    "played": 26,
+    "won": 13,
+    "drawn": 6,
+    "lost": 7,
+    "points": 45
+  },
+  {
+    "position": {
+      "current": 7,
+      "previous": 7
+    },
+    "clubId": "liR6M6QoGbUKDrf92ljy",
+    "played": 26,
+    "won": 9,
+    "drawn": 9,
+    "lost": 8,
+    "points": 36
+  },
+  {
+    "position": {
+      "current": 8,
+      "previous": 8
+    },
+    "clubId": "mnobZxFJUNv8yp9MMAVr",
+    "played": 26,
+    "won": 9,
+    "drawn": 8,
+    "lost": 9,
+    "points": 35
+  },
+  {
+    "position": {
+      "current": 9,
+      "previous": 10
+    },
+    "clubId": "NE2fp4cM4NUqP46WaPlg",
+    "played": 26,
+    "won": 8,
+    "drawn": 7,
+    "lost": 11,
+    "points": 31
+  },
+  {
+    "position": {
+      "current": 10,
+      "previous": 9
+    },
+    "clubId": "jvwJw8DP9aNxTYpyeZbD",
+    "played": 26,
+    "won": 8,
+    "drawn": 7,
+    "lost": 11,
+    "points": 31
+  },
+  {
+    "position": {
+      "current": 11,
+      "previous": 11
+    },
+    "clubId": "EsM9UQmYPxnJ6y7PPsxH",
+    "played": 25,
+    "won": 7,
+    "drawn": 6,
+    "lost": 12,
+    "points": 27
+  },
+  {
+    "position": {
+      "current": 12,
+      "previous": 12
+    },
+    "clubId": "3AlrPH7nfT3QVoAGRCxA",
+    "played": 26,
+    "won": 6,
+    "drawn": 9,
+    "lost": 11,
+    "points": 27
+  },
+  {
+    "position": {
+      "current": 13,
+      "previous": 15
+    },
+    "clubId": "b7kV5zOD2Ks4Zwq6LdA3",
+    "played": 26,
+    "won": 6,
+    "drawn": 9,
+    "lost": 11,
+    "points": 27
+  },
+  {
+    "position": {
+      "current": 14,
+      "previous": 18
+    },
+    "clubId": "ATVDld98qhJ72c01ASRm",
+    "played": 26,
+    "won": 5,
+    "drawn": 11,
+    "lost": 10,
+    "points": 26
+  },
+  {
+    "position": {
+      "current": 15,
+      "previous": 13
+    },
+    "clubId": "kunN58Uay2qBwj78FbhE",
+    "played": 25,
+    "won": 6,
+    "drawn": 8,
+    "lost": 11,
+    "points": 26
+  },
+  {
+    "position": {
+      "current": 16,
+      "previous": 14
+    },
+    "clubId": "N7HUC6O9j5uxb2APxuIY",
+    "played": 25,
+    "won": 6,
+    "drawn": 6,
+    "lost": 13,
+    "points": 24
+  },
+  {
+    "position": {
+      "current": 17,
+      "previous": 19
+    },
+    "clubId": "hf5L7fELviZ8h72trHVf",
+    "played": 26,
+    "won": 6,
+    "drawn": 6,
+    "lost": 14,
+    "points": 24
+  },
+  {
+    "position": {
+      "current": 18,
+      "previous": 16
+    },
+    "clubId": "A1SAYZurfm07B1NFc4l5",
+    "played": 26,
+    "won": 6,
+    "drawn": 6,
+    "lost": 14,
+    "points": 24
+  },
+  {
+    "position": {
+      "current": 19,
+      "previous": 17
+    },
+    "clubId": "gFqbodPFWCjhiMTOZ7XA",
+    "played": 26,
+    "won": 6,
+    "drawn": 6,
+    "lost": 14,
+    "points": 24
+  },
+  {
+    "position": {
+      "current": 20,
+      "previous": 20
+    },
+    "clubId": "7JIusBwiXNnsbI7m7h06",
+    "played": 26,
+    "won": 3,
+    "drawn": 11,
+    "lost": 12,
+    "points": 20
+  }
+]
+}
