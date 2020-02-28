@@ -1,0 +1,9 @@
+[
+  {
+    "name": "default",
+    "type": "sqlite",
+    "database": "./data/default.sq3",
+    "synchronize": true,
+    "entities": ["models/*.ts"]
+  }
+]

@@ -1,10 +1,12 @@
 {
   "compilerOptions": {
+    "experimentalDecorators": true,
     "moduleResolution": "node",
     "target": "es2017",
     "outDir": "dist",
-    "lib": ["esnext"],
-    "esModuleInterop": true
+    "lib": ["esnext", "ES6"],
+    "esModuleInterop": true,
+    "emitDecoratorMetadata": true
   },
   "exclude": ["node_modules"]
 }
