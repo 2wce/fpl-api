@@ -14,6 +14,20 @@ const types = gql`
     standing: Standing
   }
 
+  type Standing {
+    id: ID
+    club: Club
+    position: Position
+    played: Int
+    won: Int
+    drawn: Int
+    lost: Int
+    goals: Goal
+    points: Int
+    form: [Fixture]
+    nextMatch: Fixture
+  }
+
   type Fixture {
     id: ID!
     matchDate: String
