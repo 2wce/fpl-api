@@ -1,6250 +1,6248 @@
-const results = [
+export const results = [
   {
-    matchDate: 'Saturday 3 February 2018',
+    matchDate: "Saturday 3 February 2018",
     matchList: [
       {
         ground: {
-          name: 'Turf Moor',
-          city: 'Burnley',
+          name: "Turf Moor",
+          city: "Burnley"
         },
-        matchDate: 'Saturday 3 February 2018',
+        matchDate: "Saturday 3 February 2018",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Burnley',
+            shortName: "Burnley"
           },
           {
-            shortName: 'Man City',
-          },
-        ],
+            shortName: "Man City"
+          }
+        ]
       },
       {
         ground: {
-          name: 'The Hawthorns',
-          city: 'West Bromwich',
+          name: "The Hawthorns",
+          city: "West Bromwich"
         },
-        matchDate: 'Saturday 3 February 2018',
+        matchDate: "Saturday 3 February 2018",
         score: [
           {
-            count: 2,
+            count: 2
           },
           {
-            count: 3,
-          },
+            count: 3
+          }
         ],
         teams: [
           {
-            shortName: 'West Brom',
+            shortName: "West Brom"
           },
           {
-            shortName: 'Southampton',
-          },
-        ],
+            shortName: "Southampton"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Old Trafford',
-          city: 'Manchester',
+          name: "Old Trafford",
+          city: "Manchester"
         },
-        matchDate: 'Saturday 3 February 2018',
+        matchDate: "Saturday 3 February 2018",
         score: [
           {
-            count: 2,
+            count: 2
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Man Utd',
+            shortName: "Man Utd"
           },
           {
-            shortName: 'Huddersfield',
-          },
-        ],
+            shortName: "Huddersfield"
+          }
+        ]
       },
       {
         ground: {
-          name: 'King Power Stadium',
-          city: 'Leicester',
+          name: "King Power Stadium",
+          city: "Leicester"
         },
-        matchDate: 'Saturday 3 February 2018',
+        matchDate: "Saturday 3 February 2018",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Leicester',
+            shortName: "Leicester"
           },
           {
-            shortName: 'Swansea',
-          },
-        ],
+            shortName: "Swansea"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Amex Stadium',
-          city: 'Falmer',
+          name: "Amex Stadium",
+          city: "Falmer"
         },
-        matchDate: 'Saturday 3 February 2018',
+        matchDate: "Saturday 3 February 2018",
         score: [
           {
-            count: 3,
+            count: 3
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Brighton',
+            shortName: "Brighton"
           },
           {
-            shortName: 'West Ham',
-          },
-        ],
+            shortName: "West Ham"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Vitality Stadium',
-          city: 'Bournemouth',
+          name: "Vitality Stadium",
+          city: "Bournemouth"
         },
-        matchDate: 'Saturday 3 February 2018',
+        matchDate: "Saturday 3 February 2018",
         score: [
           {
-            count: 2,
+            count: 2
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Bournemouth',
+            shortName: "Bournemouth"
           },
           {
-            shortName: 'Stoke',
-          },
-        ],
+            shortName: "Stoke"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Emirates Stadium',
-          city: 'London',
+          name: "Emirates Stadium",
+          city: "London"
         },
-        matchDate: 'Saturday 3 February 2018',
+        matchDate: "Saturday 3 February 2018",
         score: [
           {
-            count: 5,
+            count: 5
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Arsenal',
+            shortName: "Arsenal"
           },
           {
-            shortName: 'Everton',
-          },
-        ],
-      },
-    ],
+            shortName: "Everton"
+          }
+        ]
+      }
+    ]
   },
   {
-    matchDate: 'Wednesday 31 January 2018',
+    matchDate: "Wednesday 31 January 2018",
     matchList: [
       {
         ground: {
           name: "St. Mary's Stadium",
-          city: 'Southampton',
+          city: "Southampton"
         },
-        matchDate: 'Wednesday 31 January 2018',
+        matchDate: "Wednesday 31 January 2018",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Southampton',
+            shortName: "Southampton"
           },
           {
-            shortName: 'Brighton',
-          },
-        ],
+            shortName: "Brighton"
+          }
+        ]
       },
       {
         ground: {
           name: "St. James' Park",
-          city: 'Newcastle',
+          city: "Newcastle"
         },
-        matchDate: 'Wednesday 31 January 2018',
+        matchDate: "Wednesday 31 January 2018",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Newcastle',
+            shortName: "Newcastle"
           },
           {
-            shortName: 'Burnley',
-          },
-        ],
+            shortName: "Burnley"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Goodison Park',
-          city: 'Liverpool',
+          name: "Goodison Park",
+          city: "Liverpool"
         },
-        matchDate: 'Wednesday 31 January 2018',
+        matchDate: "Wednesday 31 January 2018",
         score: [
           {
-            count: 2,
+            count: 2
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Everton',
+            shortName: "Everton"
           },
           {
-            shortName: 'Leicester',
-          },
-        ],
+            shortName: "Leicester"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Stamford Bridge',
-          city: 'London',
+          name: "Stamford Bridge",
+          city: "London"
         },
-        matchDate: 'Wednesday 31 January 2018',
+        matchDate: "Wednesday 31 January 2018",
         score: [
           {
-            count: 0,
+            count: 0
           },
           {
-            count: 3,
-          },
+            count: 3
+          }
         ],
         teams: [
           {
-            shortName: 'Chelsea',
+            shortName: "Chelsea"
           },
           {
-            shortName: 'Bournemouth',
-          },
-        ],
+            shortName: "Bournemouth"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Wembley Stadium',
-          city: 'London',
+          name: "Wembley Stadium",
+          city: "London"
         },
-        matchDate: 'Wednesday 31 January 2018',
+        matchDate: "Wednesday 31 January 2018",
         score: [
           {
-            count: 2,
+            count: 2
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Spurs',
+            shortName: "Spurs"
           },
           {
-            shortName: 'Man Utd',
-          },
-        ],
+            shortName: "Man Utd"
+          }
+        ]
       },
       {
         ground: {
-          name: 'bet365 Stadium',
-          city: 'Stoke',
+          name: "bet365 Stadium",
+          city: "Stoke"
         },
-        matchDate: 'Wednesday 31 January 2018',
+        matchDate: "Wednesday 31 January 2018",
         score: [
           {
-            count: 0,
+            count: 0
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Stoke',
+            shortName: "Stoke"
           },
           {
-            shortName: 'Watford',
-          },
-        ],
+            shortName: "Watford"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Etihad Stadium',
-          city: 'Manchester',
+          name: "Etihad Stadium",
+          city: "Manchester"
         },
-        matchDate: 'Wednesday 31 January 2018',
+        matchDate: "Wednesday 31 January 2018",
         score: [
           {
-            count: 3,
+            count: 3
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Man City',
+            shortName: "Man City"
           },
           {
-            shortName: 'West Brom',
-          },
-        ],
-      },
-    ],
+            shortName: "West Brom"
+          }
+        ]
+      }
+    ]
   },
   {
-    matchDate: 'Tuesday 30 January 2018',
+    matchDate: "Tuesday 30 January 2018",
     matchList: [
       {
         ground: {
-          name: 'London Stadium',
-          city: 'London',
+          name: "London Stadium",
+          city: "London"
         },
-        matchDate: 'Tuesday 30 January 2018',
+        matchDate: "Tuesday 30 January 2018",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'West Ham',
+            shortName: "West Ham"
           },
           {
-            shortName: 'Crystal Palace',
-          },
-        ],
+            shortName: "Crystal Palace"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Liberty Stadium',
-          city: 'Swansea',
+          name: "Liberty Stadium",
+          city: "Swansea"
         },
-        matchDate: 'Tuesday 30 January 2018',
+        matchDate: "Tuesday 30 January 2018",
         score: [
           {
-            count: 3,
+            count: 3
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Swansea',
+            shortName: "Swansea"
           },
           {
-            shortName: 'Arsenal',
-          },
-        ],
+            shortName: "Arsenal"
+          }
+        ]
       },
       {
         ground: {
           name: "John Smith's Stadium",
-          city: 'Huddersfield',
+          city: "Huddersfield"
         },
-        matchDate: 'Tuesday 30 January 2018',
+        matchDate: "Tuesday 30 January 2018",
         score: [
           {
-            count: 0,
+            count: 0
           },
           {
-            count: 3,
-          },
+            count: 3
+          }
         ],
         teams: [
           {
-            shortName: 'Huddersfield',
+            shortName: "Huddersfield"
           },
           {
-            shortName: 'Liverpool',
-          },
-        ],
-      },
-    ],
+            shortName: "Liverpool"
+          }
+        ]
+      }
+    ]
   },
   {
-    matchDate: 'Monday 22 January 2018',
+    matchDate: "Monday 22 January 2018",
     matchList: [
       {
         ground: {
-          name: 'Liberty Stadium',
-          city: 'Swansea',
+          name: "Liberty Stadium",
+          city: "Swansea"
         },
-        matchDate: 'Monday 22 January 2018',
+        matchDate: "Monday 22 January 2018",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Swansea',
+            shortName: "Swansea"
           },
           {
-            shortName: 'Liverpool',
-          },
-        ],
-      },
-    ],
+            shortName: "Liverpool"
+          }
+        ]
+      }
+    ]
   },
   {
-    matchDate: 'Sunday 21 January 2018',
+    matchDate: "Sunday 21 January 2018",
     matchList: [
       {
         ground: {
           name: "St. Mary's Stadium",
-          city: 'Southampton',
+          city: "Southampton"
         },
-        matchDate: 'Sunday 21 January 2018',
+        matchDate: "Sunday 21 January 2018",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Southampton',
+            shortName: "Southampton"
           },
           {
-            shortName: 'Spurs',
-          },
-        ],
-      },
-    ],
+            shortName: "Spurs"
+          }
+        ]
+      }
+    ]
   },
   {
-    matchDate: 'Saturday 20 January 2018',
+    matchDate: "Saturday 20 January 2018",
     matchList: [
       {
         ground: {
-          name: 'Amex Stadium',
-          city: 'Falmer',
+          name: "Amex Stadium",
+          city: "Falmer"
         },
-        matchDate: 'Saturday 20 January 2018',
+        matchDate: "Saturday 20 January 2018",
         score: [
           {
-            count: 0,
+            count: 0
           },
           {
-            count: 4,
-          },
+            count: 4
+          }
         ],
         teams: [
           {
-            shortName: 'Brighton',
+            shortName: "Brighton"
           },
           {
-            shortName: 'Chelsea',
-          },
-        ],
+            shortName: "Chelsea"
+          }
+        ]
       },
       {
         ground: {
-          name: 'London Stadium',
-          city: 'London',
+          name: "London Stadium",
+          city: "London"
         },
-        matchDate: 'Saturday 20 January 2018',
+        matchDate: "Saturday 20 January 2018",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'West Ham',
+            shortName: "West Ham"
           },
           {
-            shortName: 'Bournemouth',
-          },
-        ],
+            shortName: "Bournemouth"
+          }
+        ]
       },
       {
         ground: {
-          name: 'bet365 Stadium',
-          city: 'Stoke',
+          name: "bet365 Stadium",
+          city: "Stoke"
         },
-        matchDate: 'Saturday 20 January 2018',
+        matchDate: "Saturday 20 January 2018",
         score: [
           {
-            count: 2,
+            count: 2
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Stoke',
+            shortName: "Stoke"
           },
           {
-            shortName: 'Huddersfield',
-          },
-        ],
+            shortName: "Huddersfield"
+          }
+        ]
       },
       {
         ground: {
-          name: 'King Power Stadium',
-          city: 'Leicester',
+          name: "King Power Stadium",
+          city: "Leicester"
         },
-        matchDate: 'Saturday 20 January 2018',
+        matchDate: "Saturday 20 January 2018",
         score: [
           {
-            count: 2,
+            count: 2
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Leicester',
+            shortName: "Leicester"
           },
           {
-            shortName: 'Watford',
-          },
-        ],
+            shortName: "Watford"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Goodison Park',
-          city: 'Liverpool',
+          name: "Goodison Park",
+          city: "Liverpool"
         },
-        matchDate: 'Saturday 20 January 2018',
+        matchDate: "Saturday 20 January 2018",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Everton',
+            shortName: "Everton"
           },
           {
-            shortName: 'West Brom',
-          },
-        ],
+            shortName: "West Brom"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Turf Moor',
-          city: 'Burnley',
+          name: "Turf Moor",
+          city: "Burnley"
         },
-        matchDate: 'Saturday 20 January 2018',
+        matchDate: "Saturday 20 January 2018",
         score: [
           {
-            count: 0,
+            count: 0
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Burnley',
+            shortName: "Burnley"
           },
           {
-            shortName: 'Man Utd',
-          },
-        ],
+            shortName: "Man Utd"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Emirates Stadium',
-          city: 'London',
+          name: "Emirates Stadium",
+          city: "London"
         },
-        matchDate: 'Saturday 20 January 2018',
+        matchDate: "Saturday 20 January 2018",
         score: [
           {
-            count: 4,
+            count: 4
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Arsenal',
+            shortName: "Arsenal"
           },
           {
-            shortName: 'Crystal Palace',
-          },
-        ],
+            shortName: "Crystal Palace"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Etihad Stadium',
-          city: 'Manchester',
+          name: "Etihad Stadium",
+          city: "Manchester"
         },
-        matchDate: 'Saturday 20 January 2018',
+        matchDate: "Saturday 20 January 2018",
         score: [
           {
-            count: 3,
+            count: 3
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Man City',
+            shortName: "Man City"
           },
           {
-            shortName: 'Newcastle',
-          },
-        ],
-      },
-    ],
+            shortName: "Newcastle"
+          }
+        ]
+      }
+    ]
   },
   {
-    matchDate: 'Monday 15 January 2018',
+    matchDate: "Monday 15 January 2018",
     matchList: [
       {
         ground: {
-          name: 'Old Trafford',
-          city: 'Manchester',
+          name: "Old Trafford",
+          city: "Manchester"
         },
-        matchDate: 'Monday 15 January 2018',
+        matchDate: "Monday 15 January 2018",
         score: [
           {
-            count: 3,
+            count: 3
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Man Utd',
+            shortName: "Man Utd"
           },
           {
-            shortName: 'Stoke',
-          },
-        ],
-      },
-    ],
+            shortName: "Stoke"
+          }
+        ]
+      }
+    ]
   },
   {
-    matchDate: 'Sunday 14 January 2018',
+    matchDate: "Sunday 14 January 2018",
     matchList: [
       {
         ground: {
-          name: 'Vitality Stadium',
-          city: 'Bournemouth',
+          name: "Vitality Stadium",
+          city: "Bournemouth"
         },
-        matchDate: 'Sunday 14 January 2018',
+        matchDate: "Sunday 14 January 2018",
         score: [
           {
-            count: 2,
+            count: 2
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Bournemouth',
+            shortName: "Bournemouth"
           },
           {
-            shortName: 'Arsenal',
-          },
-        ],
+            shortName: "Arsenal"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Anfield',
-          city: 'Liverpool',
+          name: "Anfield",
+          city: "Liverpool"
         },
-        matchDate: 'Sunday 14 January 2018',
+        matchDate: "Sunday 14 January 2018",
         score: [
           {
-            count: 4,
+            count: 4
           },
           {
-            count: 3,
-          },
+            count: 3
+          }
         ],
         teams: [
           {
-            shortName: 'Liverpool',
+            shortName: "Liverpool"
           },
           {
-            shortName: 'Man City',
-          },
-        ],
-      },
-    ],
+            shortName: "Man City"
+          }
+        ]
+      }
+    ]
   },
   {
-    matchDate: 'Saturday 13 January 2018',
+    matchDate: "Saturday 13 January 2018",
     matchList: [
       {
         ground: {
-          name: 'The Hawthorns',
-          city: 'West Bromwich',
+          name: "The Hawthorns",
+          city: "West Bromwich"
         },
-        matchDate: 'Saturday 13 January 2018',
+        matchDate: "Saturday 13 January 2018",
         score: [
           {
-            count: 2,
+            count: 2
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'West Brom',
+            shortName: "West Brom"
           },
           {
-            shortName: 'Brighton',
-          },
-        ],
+            shortName: "Brighton"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Vicarage Road',
-          city: 'Watford',
+          name: "Vicarage Road",
+          city: "Watford"
         },
-        matchDate: 'Saturday 13 January 2018',
+        matchDate: "Saturday 13 January 2018",
         score: [
           {
-            count: 2,
+            count: 2
           },
           {
-            count: 2,
-          },
+            count: 2
+          }
         ],
         teams: [
           {
-            shortName: 'Watford',
+            shortName: "Watford"
           },
           {
-            shortName: 'Southampton',
-          },
-        ],
+            shortName: "Southampton"
+          }
+        ]
       },
       {
         ground: {
           name: "St. James' Park",
-          city: 'Newcastle',
+          city: "Newcastle"
         },
-        matchDate: 'Saturday 13 January 2018',
+        matchDate: "Saturday 13 January 2018",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Newcastle',
+            shortName: "Newcastle"
           },
           {
-            shortName: 'Swansea',
-          },
-        ],
+            shortName: "Swansea"
+          }
+        ]
       },
       {
         ground: {
           name: "John Smith's Stadium",
-          city: 'Huddersfield',
+          city: "Huddersfield"
         },
-        matchDate: 'Saturday 13 January 2018',
+        matchDate: "Saturday 13 January 2018",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 4,
-          },
+            count: 4
+          }
         ],
         teams: [
           {
-            shortName: 'Huddersfield',
+            shortName: "Huddersfield"
           },
           {
-            shortName: 'West Ham',
-          },
-        ],
+            shortName: "West Ham"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Selhurst Park',
-          city: 'London',
+          name: "Selhurst Park",
+          city: "London"
         },
-        matchDate: 'Saturday 13 January 2018',
+        matchDate: "Saturday 13 January 2018",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Crystal Palace',
+            shortName: "Crystal Palace"
           },
           {
-            shortName: 'Burnley',
-          },
-        ],
+            shortName: "Burnley"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Stamford Bridge',
-          city: 'London',
+          name: "Stamford Bridge",
+          city: "London"
         },
-        matchDate: 'Saturday 13 January 2018',
+        matchDate: "Saturday 13 January 2018",
         score: [
           {
-            count: 0,
+            count: 0
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Chelsea',
+            shortName: "Chelsea"
           },
           {
-            shortName: 'Leicester',
-          },
-        ],
+            shortName: "Leicester"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Wembley Stadium',
-          city: 'London',
+          name: "Wembley Stadium",
+          city: "London"
         },
-        matchDate: 'Saturday 13 January 2018',
+        matchDate: "Saturday 13 January 2018",
         score: [
           {
-            count: 4,
+            count: 4
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Spurs',
+            shortName: "Spurs"
           },
           {
-            shortName: 'Everton',
-          },
-        ],
-      },
-    ],
+            shortName: "Everton"
+          }
+        ]
+      }
+    ]
   },
   {
-    matchDate: 'Thursday 4 January 2018',
+    matchDate: "Thursday 4 January 2018",
     matchList: [
       {
         ground: {
-          name: 'Wembley Stadium',
-          city: 'London',
+          name: "Wembley Stadium",
+          city: "London"
         },
-        matchDate: 'Thursday 4 January 2018',
+        matchDate: "Thursday 4 January 2018",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Spurs',
+            shortName: "Spurs"
           },
           {
-            shortName: 'West Ham',
-          },
-        ],
-      },
-    ],
+            shortName: "West Ham"
+          }
+        ]
+      }
+    ]
   },
   {
-    matchDate: 'Wednesday 3 January 2018',
+    matchDate: "Wednesday 3 January 2018",
     matchList: [
       {
         ground: {
-          name: 'Emirates Stadium',
-          city: 'London',
+          name: "Emirates Stadium",
+          city: "London"
         },
-        matchDate: 'Wednesday 3 January 2018',
+        matchDate: "Wednesday 3 January 2018",
         score: [
           {
-            count: 2,
+            count: 2
           },
           {
-            count: 2,
-          },
+            count: 2
+          }
         ],
         teams: [
           {
-            shortName: 'Arsenal',
+            shortName: "Arsenal"
           },
           {
-            shortName: 'Chelsea',
-          },
-        ],
-      },
-    ],
+            shortName: "Chelsea"
+          }
+        ]
+      }
+    ]
   },
   {
-    matchDate: 'Tuesday 2 January 2018',
+    matchDate: "Tuesday 2 January 2018",
     matchList: [
       {
         ground: {
-          name: 'Etihad Stadium',
-          city: 'Manchester',
+          name: "Etihad Stadium",
+          city: "Manchester"
         },
-        matchDate: 'Tuesday 2 January 2018',
+        matchDate: "Tuesday 2 January 2018",
         score: [
           {
-            count: 3,
+            count: 3
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Man City',
+            shortName: "Man City"
           },
           {
-            shortName: 'Watford',
-          },
-        ],
+            shortName: "Watford"
+          }
+        ]
       },
       {
         ground: {
-          name: 'London Stadium',
-          city: 'London',
+          name: "London Stadium",
+          city: "London"
         },
-        matchDate: 'Tuesday 2 January 2018',
+        matchDate: "Tuesday 2 January 2018",
         score: [
           {
-            count: 2,
+            count: 2
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'West Ham',
+            shortName: "West Ham"
           },
           {
-            shortName: 'West Brom',
-          },
-        ],
+            shortName: "West Brom"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Liberty Stadium',
-          city: 'Swansea',
+          name: "Liberty Stadium",
+          city: "Swansea"
         },
-        matchDate: 'Tuesday 2 January 2018',
+        matchDate: "Tuesday 2 January 2018",
         score: [
           {
-            count: 0,
+            count: 0
           },
           {
-            count: 2,
-          },
+            count: 2
+          }
         ],
         teams: [
           {
-            shortName: 'Swansea',
+            shortName: "Swansea"
           },
           {
-            shortName: 'Spurs',
-          },
-        ],
+            shortName: "Spurs"
+          }
+        ]
       },
       {
         ground: {
           name: "St. Mary's Stadium",
-          city: 'Southampton',
+          city: "Southampton"
         },
-        matchDate: 'Tuesday 2 January 2018',
+        matchDate: "Tuesday 2 January 2018",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 2,
-          },
+            count: 2
+          }
         ],
         teams: [
           {
-            shortName: 'Southampton',
+            shortName: "Southampton"
           },
           {
-            shortName: 'Crystal Palace',
-          },
-        ],
-      },
-    ],
+            shortName: "Crystal Palace"
+          }
+        ]
+      }
+    ]
   },
   {
-    matchDate: 'Monday 1 January 2018',
+    matchDate: "Monday 1 January 2018",
     matchList: [
       {
         ground: {
-          name: 'Amex Stadium',
-          city: 'Falmer',
+          name: "Amex Stadium",
+          city: "Falmer"
         },
-        matchDate: 'Monday 1 January 2018',
+        matchDate: "Monday 1 January 2018",
         score: [
           {
-            count: 2,
+            count: 2
           },
           {
-            count: 2,
-          },
+            count: 2
+          }
         ],
         teams: [
           {
-            shortName: 'Brighton',
+            shortName: "Brighton"
           },
           {
-            shortName: 'Bournemouth',
-          },
-        ],
+            shortName: "Bournemouth"
+          }
+        ]
       },
       {
         ground: {
-          name: 'bet365 Stadium',
-          city: 'Stoke',
+          name: "bet365 Stadium",
+          city: "Stoke"
         },
-        matchDate: 'Monday 1 January 2018',
+        matchDate: "Monday 1 January 2018",
         score: [
           {
-            count: 0,
+            count: 0
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Stoke',
+            shortName: "Stoke"
           },
           {
-            shortName: 'Newcastle',
-          },
-        ],
+            shortName: "Newcastle"
+          }
+        ]
       },
       {
         ground: {
-          name: 'King Power Stadium',
-          city: 'Leicester',
+          name: "King Power Stadium",
+          city: "Leicester"
         },
-        matchDate: 'Monday 1 January 2018',
+        matchDate: "Monday 1 January 2018",
         score: [
           {
-            count: 3,
+            count: 3
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Leicester',
+            shortName: "Leicester"
           },
           {
-            shortName: 'Huddersfield',
-          },
-        ],
+            shortName: "Huddersfield"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Turf Moor',
-          city: 'Burnley',
+          name: "Turf Moor",
+          city: "Burnley"
         },
-        matchDate: 'Monday 1 January 2018',
+        matchDate: "Monday 1 January 2018",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 2,
-          },
+            count: 2
+          }
         ],
         teams: [
           {
-            shortName: 'Burnley',
+            shortName: "Burnley"
           },
           {
-            shortName: 'Liverpool',
-          },
-        ],
+            shortName: "Liverpool"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Goodison Park',
-          city: 'Liverpool',
+          name: "Goodison Park",
+          city: "Liverpool"
         },
-        matchDate: 'Monday 1 January 2018',
+        matchDate: "Monday 1 January 2018",
         score: [
           {
-            count: 0,
+            count: 0
           },
           {
-            count: 2,
-          },
+            count: 2
+          }
         ],
         teams: [
           {
-            shortName: 'Everton',
+            shortName: "Everton"
           },
           {
-            shortName: 'Man Utd',
-          },
-        ],
-      },
-    ],
+            shortName: "Man Utd"
+          }
+        ]
+      }
+    ]
   },
   {
-    matchDate: 'Sunday 31 December 2017',
+    matchDate: "Sunday 31 December 2017",
     matchList: [
       {
         ground: {
-          name: 'Selhurst Park',
-          city: 'London',
+          name: "Selhurst Park",
+          city: "London"
         },
-        matchDate: 'Sunday 31 December 2017',
+        matchDate: "Sunday 31 December 2017",
         score: [
           {
-            count: 0,
+            count: 0
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Crystal Palace',
+            shortName: "Crystal Palace"
           },
           {
-            shortName: 'Man City',
-          },
-        ],
+            shortName: "Man City"
+          }
+        ]
       },
       {
         ground: {
-          name: 'The Hawthorns',
-          city: 'West Bromwich',
+          name: "The Hawthorns",
+          city: "West Bromwich"
         },
-        matchDate: 'Sunday 31 December 2017',
+        matchDate: "Sunday 31 December 2017",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'West Brom',
+            shortName: "West Brom"
           },
           {
-            shortName: 'Arsenal',
-          },
-        ],
-      },
-    ],
+            shortName: "Arsenal"
+          }
+        ]
+      }
+    ]
   },
   {
-    matchDate: 'Saturday 30 December 2017',
+    matchDate: "Saturday 30 December 2017",
     matchList: [
       {
         ground: {
-          name: 'Vicarage Road',
-          city: 'Watford',
+          name: "Vicarage Road",
+          city: "Watford"
         },
-        matchDate: 'Saturday 30 December 2017',
+        matchDate: "Saturday 30 December 2017",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 2,
-          },
+            count: 2
+          }
         ],
         teams: [
           {
-            shortName: 'Watford',
+            shortName: "Watford"
           },
           {
-            shortName: 'Swansea',
-          },
-        ],
+            shortName: "Swansea"
+          }
+        ]
       },
       {
         ground: {
           name: "St. James' Park",
-          city: 'Newcastle',
+          city: "Newcastle"
         },
-        matchDate: 'Saturday 30 December 2017',
+        matchDate: "Saturday 30 December 2017",
         score: [
           {
-            count: 0,
+            count: 0
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Newcastle',
+            shortName: "Newcastle"
           },
           {
-            shortName: 'Brighton',
-          },
-        ],
+            shortName: "Brighton"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Anfield',
-          city: 'Liverpool',
+          name: "Anfield",
+          city: "Liverpool"
         },
-        matchDate: 'Saturday 30 December 2017',
+        matchDate: "Saturday 30 December 2017",
         score: [
           {
-            count: 2,
+            count: 2
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Liverpool',
+            shortName: "Liverpool"
           },
           {
-            shortName: 'Leicester',
-          },
-        ],
+            shortName: "Leicester"
+          }
+        ]
       },
       {
         ground: {
           name: "John Smith's Stadium",
-          city: 'Huddersfield',
+          city: "Huddersfield"
         },
-        matchDate: 'Saturday 30 December 2017',
+        matchDate: "Saturday 30 December 2017",
         score: [
           {
-            count: 0,
+            count: 0
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Huddersfield',
+            shortName: "Huddersfield"
           },
           {
-            shortName: 'Burnley',
-          },
-        ],
+            shortName: "Burnley"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Stamford Bridge',
-          city: 'London',
+          name: "Stamford Bridge",
+          city: "London"
         },
-        matchDate: 'Saturday 30 December 2017',
+        matchDate: "Saturday 30 December 2017",
         score: [
           {
-            count: 5,
+            count: 5
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Chelsea',
+            shortName: "Chelsea"
           },
           {
-            shortName: 'Stoke',
-          },
-        ],
+            shortName: "Stoke"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Vitality Stadium',
-          city: 'Bournemouth',
+          name: "Vitality Stadium",
+          city: "Bournemouth"
         },
-        matchDate: 'Saturday 30 December 2017',
+        matchDate: "Saturday 30 December 2017",
         score: [
           {
-            count: 2,
+            count: 2
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Bournemouth',
+            shortName: "Bournemouth"
           },
           {
-            shortName: 'Everton',
-          },
-        ],
+            shortName: "Everton"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Old Trafford',
-          city: 'Manchester',
+          name: "Old Trafford",
+          city: "Manchester"
         },
-        matchDate: 'Saturday 30 December 2017',
+        matchDate: "Saturday 30 December 2017",
         score: [
           {
-            count: 0,
+            count: 0
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Man Utd',
+            shortName: "Man Utd"
           },
           {
-            shortName: 'Southampton',
-          },
-        ],
-      },
-    ],
+            shortName: "Southampton"
+          }
+        ]
+      }
+    ]
   },
   {
-    matchDate: 'Thursday 28 December 2017',
+    matchDate: "Thursday 28 December 2017",
     matchList: [
       {
         ground: {
-          name: 'Selhurst Park',
-          city: 'London',
+          name: "Selhurst Park",
+          city: "London"
         },
-        matchDate: 'Thursday 28 December 2017',
+        matchDate: "Thursday 28 December 2017",
         score: [
           {
-            count: 2,
+            count: 2
           },
           {
-            count: 3,
-          },
+            count: 3
+          }
         ],
         teams: [
           {
-            shortName: 'Crystal Palace',
+            shortName: "Crystal Palace"
           },
           {
-            shortName: 'Arsenal',
-          },
-        ],
-      },
-    ],
+            shortName: "Arsenal"
+          }
+        ]
+      }
+    ]
   },
   {
-    matchDate: 'Wednesday 27 December 2017',
+    matchDate: "Wednesday 27 December 2017",
     matchList: [
       {
         ground: {
           name: "St. James' Park",
-          city: 'Newcastle',
+          city: "Newcastle"
         },
-        matchDate: 'Wednesday 27 December 2017',
+        matchDate: "Wednesday 27 December 2017",
         score: [
           {
-            count: 0,
+            count: 0
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Newcastle',
+            shortName: "Newcastle"
           },
           {
-            shortName: 'Man City',
-          },
-        ],
-      },
-    ],
+            shortName: "Man City"
+          }
+        ]
+      }
+    ]
   },
   {
-    matchDate: 'Tuesday 26 December 2017',
+    matchDate: "Tuesday 26 December 2017",
     matchList: [
       {
         ground: {
-          name: 'Wembley Stadium',
-          city: 'London',
+          name: "Wembley Stadium",
+          city: "London"
         },
-        matchDate: 'Tuesday 26 December 2017',
+        matchDate: "Tuesday 26 December 2017",
         score: [
           {
-            count: 5,
+            count: 5
           },
           {
-            count: 2,
-          },
+            count: 2
+          }
         ],
         teams: [
           {
-            shortName: 'Spurs',
+            shortName: "Spurs"
           },
           {
-            shortName: 'Southampton',
-          },
-        ],
+            shortName: "Southampton"
+          }
+        ]
       },
       {
         ground: {
-          name: 'The Hawthorns',
-          city: 'West Bromwich',
+          name: "The Hawthorns",
+          city: "West Bromwich"
         },
-        matchDate: 'Tuesday 26 December 2017',
+        matchDate: "Tuesday 26 December 2017",
         score: [
           {
-            count: 0,
+            count: 0
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'West Brom',
+            shortName: "West Brom"
           },
           {
-            shortName: 'Everton',
-          },
-        ],
+            shortName: "Everton"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Vicarage Road',
-          city: 'Watford',
+          name: "Vicarage Road",
+          city: "Watford"
         },
-        matchDate: 'Tuesday 26 December 2017',
+        matchDate: "Tuesday 26 December 2017",
         score: [
           {
-            count: 2,
+            count: 2
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Watford',
+            shortName: "Watford"
           },
           {
-            shortName: 'Leicester',
-          },
-        ],
+            shortName: "Leicester"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Old Trafford',
-          city: 'Manchester',
+          name: "Old Trafford",
+          city: "Manchester"
         },
-        matchDate: 'Tuesday 26 December 2017',
+        matchDate: "Tuesday 26 December 2017",
         score: [
           {
-            count: 2,
+            count: 2
           },
           {
-            count: 2,
-          },
+            count: 2
+          }
         ],
         teams: [
           {
-            shortName: 'Man Utd',
+            shortName: "Man Utd"
           },
           {
-            shortName: 'Burnley',
-          },
-        ],
+            shortName: "Burnley"
+          }
+        ]
       },
       {
         ground: {
           name: "John Smith's Stadium",
-          city: 'Huddersfield',
+          city: "Huddersfield"
         },
-        matchDate: 'Tuesday 26 December 2017',
+        matchDate: "Tuesday 26 December 2017",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Huddersfield',
+            shortName: "Huddersfield"
           },
           {
-            shortName: 'Stoke',
-          },
-        ],
+            shortName: "Stoke"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Stamford Bridge',
-          city: 'London',
+          name: "Stamford Bridge",
+          city: "London"
         },
-        matchDate: 'Tuesday 26 December 2017',
+        matchDate: "Tuesday 26 December 2017",
         score: [
           {
-            count: 2,
+            count: 2
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Chelsea',
+            shortName: "Chelsea"
           },
           {
-            shortName: 'Brighton',
-          },
-        ],
+            shortName: "Brighton"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Vitality Stadium',
-          city: 'Bournemouth',
+          name: "Vitality Stadium",
+          city: "Bournemouth"
         },
-        matchDate: 'Tuesday 26 December 2017',
+        matchDate: "Tuesday 26 December 2017",
         score: [
           {
-            count: 3,
+            count: 3
           },
           {
-            count: 3,
-          },
+            count: 3
+          }
         ],
         teams: [
           {
-            shortName: 'Bournemouth',
+            shortName: "Bournemouth"
           },
           {
-            shortName: 'West Ham',
-          },
-        ],
+            shortName: "West Ham"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Anfield',
-          city: 'Liverpool',
+          name: "Anfield",
+          city: "Liverpool"
         },
-        matchDate: 'Tuesday 26 December 2017',
+        matchDate: "Tuesday 26 December 2017",
         score: [
           {
-            count: 5,
+            count: 5
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Liverpool',
+            shortName: "Liverpool"
           },
           {
-            shortName: 'Swansea',
-          },
-        ],
-      },
-    ],
+            shortName: "Swansea"
+          }
+        ]
+      }
+    ]
   },
   {
-    matchDate: 'Saturday 23 December 2017',
+    matchDate: "Saturday 23 December 2017",
     matchList: [
       {
         ground: {
-          name: 'Goodison Park',
-          city: 'Liverpool',
+          name: "Goodison Park",
+          city: "Liverpool"
         },
-        matchDate: 'Saturday 23 December 2017',
+        matchDate: "Saturday 23 December 2017",
         score: [
           {
-            count: 0,
+            count: 0
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Everton',
+            shortName: "Everton"
           },
           {
-            shortName: 'Chelsea',
-          },
-        ],
+            shortName: "Chelsea"
+          }
+        ]
       },
       {
         ground: {
-          name: 'London Stadium',
-          city: 'London',
+          name: "London Stadium",
+          city: "London"
         },
-        matchDate: 'Saturday 23 December 2017',
+        matchDate: "Saturday 23 December 2017",
         score: [
           {
-            count: 2,
+            count: 2
           },
           {
-            count: 3,
-          },
+            count: 3
+          }
         ],
         teams: [
           {
-            shortName: 'West Ham',
+            shortName: "West Ham"
           },
           {
-            shortName: 'Newcastle',
-          },
-        ],
+            shortName: "Newcastle"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Liberty Stadium',
-          city: 'Swansea',
+          name: "Liberty Stadium",
+          city: "Swansea"
         },
-        matchDate: 'Saturday 23 December 2017',
+        matchDate: "Saturday 23 December 2017",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Swansea',
+            shortName: "Swansea"
           },
           {
-            shortName: 'Crystal Palace',
-          },
-        ],
+            shortName: "Crystal Palace"
+          }
+        ]
       },
       {
         ground: {
-          name: 'bet365 Stadium',
-          city: 'Stoke',
+          name: "bet365 Stadium",
+          city: "Stoke"
         },
-        matchDate: 'Saturday 23 December 2017',
+        matchDate: "Saturday 23 December 2017",
         score: [
           {
-            count: 3,
+            count: 3
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Stoke',
+            shortName: "Stoke"
           },
           {
-            shortName: 'West Brom',
-          },
-        ],
+            shortName: "West Brom"
+          }
+        ]
       },
       {
         ground: {
           name: "St. Mary's Stadium",
-          city: 'Southampton',
+          city: "Southampton"
         },
-        matchDate: 'Saturday 23 December 2017',
+        matchDate: "Saturday 23 December 2017",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Southampton',
+            shortName: "Southampton"
           },
           {
-            shortName: 'Huddersfield',
-          },
-        ],
+            shortName: "Huddersfield"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Etihad Stadium',
-          city: 'Manchester',
+          name: "Etihad Stadium",
+          city: "Manchester"
         },
-        matchDate: 'Saturday 23 December 2017',
+        matchDate: "Saturday 23 December 2017",
         score: [
           {
-            count: 4,
+            count: 4
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Man City',
+            shortName: "Man City"
           },
           {
-            shortName: 'Bournemouth',
-          },
-        ],
+            shortName: "Bournemouth"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Amex Stadium',
-          city: 'Falmer',
+          name: "Amex Stadium",
+          city: "Falmer"
         },
-        matchDate: 'Saturday 23 December 2017',
+        matchDate: "Saturday 23 December 2017",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Brighton',
+            shortName: "Brighton"
           },
           {
-            shortName: 'Watford',
-          },
-        ],
+            shortName: "Watford"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Turf Moor',
-          city: 'Burnley',
+          name: "Turf Moor",
+          city: "Burnley"
         },
-        matchDate: 'Saturday 23 December 2017',
+        matchDate: "Saturday 23 December 2017",
         score: [
           {
-            count: 0,
+            count: 0
           },
           {
-            count: 3,
-          },
+            count: 3
+          }
         ],
         teams: [
           {
-            shortName: 'Burnley',
+            shortName: "Burnley"
           },
           {
-            shortName: 'Spurs',
-          },
-        ],
+            shortName: "Spurs"
+          }
+        ]
       },
       {
         ground: {
-          name: 'King Power Stadium',
-          city: 'Leicester',
+          name: "King Power Stadium",
+          city: "Leicester"
         },
-        matchDate: 'Saturday 23 December 2017',
+        matchDate: "Saturday 23 December 2017",
         score: [
           {
-            count: 2,
+            count: 2
           },
           {
-            count: 2,
-          },
+            count: 2
+          }
         ],
         teams: [
           {
-            shortName: 'Leicester',
+            shortName: "Leicester"
           },
           {
-            shortName: 'Man Utd',
-          },
-        ],
-      },
-    ],
+            shortName: "Man Utd"
+          }
+        ]
+      }
+    ]
   },
   {
-    matchDate: 'Friday 22 December 2017',
+    matchDate: "Friday 22 December 2017",
     matchList: [
       {
         ground: {
-          name: 'Emirates Stadium',
-          city: 'London',
+          name: "Emirates Stadium",
+          city: "London"
         },
-        matchDate: 'Friday 22 December 2017',
+        matchDate: "Friday 22 December 2017",
         score: [
           {
-            count: 3,
+            count: 3
           },
           {
-            count: 3,
-          },
+            count: 3
+          }
         ],
         teams: [
           {
-            shortName: 'Arsenal',
+            shortName: "Arsenal"
           },
           {
-            shortName: 'Liverpool',
-          },
-        ],
-      },
-    ],
+            shortName: "Liverpool"
+          }
+        ]
+      }
+    ]
   },
   {
-    matchDate: 'Monday 18 December 2017',
+    matchDate: "Monday 18 December 2017",
     matchList: [
       {
         ground: {
-          name: 'Goodison Park',
-          city: 'Liverpool',
+          name: "Goodison Park",
+          city: "Liverpool"
         },
-        matchDate: 'Monday 18 December 2017',
+        matchDate: "Monday 18 December 2017",
         score: [
           {
-            count: 3,
+            count: 3
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Everton',
+            shortName: "Everton"
           },
           {
-            shortName: 'Swansea',
-          },
-        ],
-      },
-    ],
+            shortName: "Swansea"
+          }
+        ]
+      }
+    ]
   },
   {
-    matchDate: 'Sunday 17 December 2017',
+    matchDate: "Sunday 17 December 2017",
     matchList: [
       {
         ground: {
-          name: 'The Hawthorns',
-          city: 'West Bromwich',
+          name: "The Hawthorns",
+          city: "West Bromwich"
         },
-        matchDate: 'Sunday 17 December 2017',
+        matchDate: "Sunday 17 December 2017",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 2,
-          },
+            count: 2
+          }
         ],
         teams: [
           {
-            shortName: 'West Brom',
+            shortName: "West Brom"
           },
           {
-            shortName: 'Man Utd',
-          },
-        ],
+            shortName: "Man Utd"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Vitality Stadium',
-          city: 'Bournemouth',
+          name: "Vitality Stadium",
+          city: "Bournemouth"
         },
-        matchDate: 'Sunday 17 December 2017',
+        matchDate: "Sunday 17 December 2017",
         score: [
           {
-            count: 0,
+            count: 0
           },
           {
-            count: 4,
-          },
+            count: 4
+          }
         ],
         teams: [
           {
-            shortName: 'Bournemouth',
+            shortName: "Bournemouth"
           },
           {
-            shortName: 'Liverpool',
-          },
-        ],
-      },
-    ],
+            shortName: "Liverpool"
+          }
+        ]
+      }
+    ]
   },
   {
-    matchDate: 'Saturday 16 December 2017',
+    matchDate: "Saturday 16 December 2017",
     matchList: [
       {
         ground: {
-          name: 'King Power Stadium',
-          city: 'Leicester',
+          name: "King Power Stadium",
+          city: "Leicester"
         },
-        matchDate: 'Saturday 16 December 2017',
+        matchDate: "Saturday 16 December 2017",
         score: [
           {
-            count: 0,
+            count: 0
           },
           {
-            count: 3,
-          },
+            count: 3
+          }
         ],
         teams: [
           {
-            shortName: 'Leicester',
+            shortName: "Leicester"
           },
           {
-            shortName: 'Crystal Palace',
-          },
-        ],
+            shortName: "Crystal Palace"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Vicarage Road',
-          city: 'Watford',
+          name: "Vicarage Road",
+          city: "Watford"
         },
-        matchDate: 'Saturday 16 December 2017',
+        matchDate: "Saturday 16 December 2017",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 4,
-          },
+            count: 4
+          }
         ],
         teams: [
           {
-            shortName: 'Watford',
+            shortName: "Watford"
           },
           {
-            shortName: 'Huddersfield',
-          },
-        ],
+            shortName: "Huddersfield"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Stamford Bridge',
-          city: 'London',
+          name: "Stamford Bridge",
+          city: "London"
         },
-        matchDate: 'Saturday 16 December 2017',
+        matchDate: "Saturday 16 December 2017",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Chelsea',
+            shortName: "Chelsea"
           },
           {
-            shortName: 'Southampton',
-          },
-        ],
+            shortName: "Southampton"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Amex Stadium',
-          city: 'Falmer',
+          name: "Amex Stadium",
+          city: "Falmer"
         },
-        matchDate: 'Saturday 16 December 2017',
+        matchDate: "Saturday 16 December 2017",
         score: [
           {
-            count: 0,
+            count: 0
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Brighton',
+            shortName: "Brighton"
           },
           {
-            shortName: 'Burnley',
-          },
-        ],
+            shortName: "Burnley"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Emirates Stadium',
-          city: 'London',
+          name: "Emirates Stadium",
+          city: "London"
         },
-        matchDate: 'Saturday 16 December 2017',
+        matchDate: "Saturday 16 December 2017",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Arsenal',
+            shortName: "Arsenal"
           },
           {
-            shortName: 'Newcastle',
-          },
-        ],
+            shortName: "Newcastle"
+          }
+        ]
       },
       {
         ground: {
-          name: 'bet365 Stadium',
-          city: 'Stoke',
+          name: "bet365 Stadium",
+          city: "Stoke"
         },
-        matchDate: 'Saturday 16 December 2017',
+        matchDate: "Saturday 16 December 2017",
         score: [
           {
-            count: 0,
+            count: 0
           },
           {
-            count: 3,
-          },
+            count: 3
+          }
         ],
         teams: [
           {
-            shortName: 'Stoke',
+            shortName: "Stoke"
           },
           {
-            shortName: 'West Ham',
-          },
-        ],
+            shortName: "West Ham"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Etihad Stadium',
-          city: 'Manchester',
+          name: "Etihad Stadium",
+          city: "Manchester"
         },
-        matchDate: 'Saturday 16 December 2017',
+        matchDate: "Saturday 16 December 2017",
         score: [
           {
-            count: 4,
+            count: 4
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Man City',
+            shortName: "Man City"
           },
           {
-            shortName: 'Spurs',
-          },
-        ],
-      },
-    ],
+            shortName: "Spurs"
+          }
+        ]
+      }
+    ]
   },
   {
-    matchDate: 'Wednesday 13 December 2017',
+    matchDate: "Wednesday 13 December 2017",
     matchList: [
       {
         ground: {
-          name: 'Liberty Stadium',
-          city: 'Swansea',
+          name: "Liberty Stadium",
+          city: "Swansea"
         },
-        matchDate: 'Wednesday 13 December 2017',
+        matchDate: "Wednesday 13 December 2017",
         score: [
           {
-            count: 0,
+            count: 0
           },
           {
-            count: 4,
-          },
+            count: 4
+          }
         ],
         teams: [
           {
-            shortName: 'Swansea',
+            shortName: "Swansea"
           },
           {
-            shortName: 'Man City',
-          },
-        ],
+            shortName: "Man City"
+          }
+        ]
       },
       {
         ground: {
           name: "St. Mary's Stadium",
-          city: 'Southampton',
+          city: "Southampton"
         },
-        matchDate: 'Wednesday 13 December 2017',
+        matchDate: "Wednesday 13 December 2017",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 4,
-          },
+            count: 4
+          }
         ],
         teams: [
           {
-            shortName: 'Southampton',
+            shortName: "Southampton"
           },
           {
-            shortName: 'Leicester',
-          },
-        ],
+            shortName: "Leicester"
+          }
+        ]
       },
       {
         ground: {
           name: "St. James' Park",
-          city: 'Newcastle',
+          city: "Newcastle"
         },
-        matchDate: 'Wednesday 13 December 2017',
+        matchDate: "Wednesday 13 December 2017",
         score: [
           {
-            count: 0,
+            count: 0
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Newcastle',
+            shortName: "Newcastle"
           },
           {
-            shortName: 'Everton',
-          },
-        ],
+            shortName: "Everton"
+          }
+        ]
       },
       {
         ground: {
-          name: 'London Stadium',
-          city: 'London',
+          name: "London Stadium",
+          city: "London"
         },
-        matchDate: 'Wednesday 13 December 2017',
+        matchDate: "Wednesday 13 December 2017",
         score: [
           {
-            count: 0,
+            count: 0
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'West Ham',
+            shortName: "West Ham"
           },
           {
-            shortName: 'Arsenal',
-          },
-        ],
+            shortName: "Arsenal"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Wembley Stadium',
-          city: 'London',
+          name: "Wembley Stadium",
+          city: "London"
         },
-        matchDate: 'Wednesday 13 December 2017',
+        matchDate: "Wednesday 13 December 2017",
         score: [
           {
-            count: 2,
+            count: 2
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Spurs',
+            shortName: "Spurs"
           },
           {
-            shortName: 'Brighton',
-          },
-        ],
+            shortName: "Brighton"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Old Trafford',
-          city: 'Manchester',
+          name: "Old Trafford",
+          city: "Manchester"
         },
-        matchDate: 'Wednesday 13 December 2017',
+        matchDate: "Wednesday 13 December 2017",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Man Utd',
+            shortName: "Man Utd"
           },
           {
-            shortName: 'Bournemouth',
-          },
-        ],
+            shortName: "Bournemouth"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Anfield',
-          city: 'Liverpool',
+          name: "Anfield",
+          city: "Liverpool"
         },
-        matchDate: 'Wednesday 13 December 2017',
+        matchDate: "Wednesday 13 December 2017",
         score: [
           {
-            count: 0,
+            count: 0
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Liverpool',
+            shortName: "Liverpool"
           },
           {
-            shortName: 'West Brom',
-          },
-        ],
-      },
-    ],
+            shortName: "West Brom"
+          }
+        ]
+      }
+    ]
   },
   {
-    matchDate: 'Tuesday 12 December 2017',
+    matchDate: "Tuesday 12 December 2017",
     matchList: [
       {
         ground: {
-          name: 'Turf Moor',
-          city: 'Burnley',
+          name: "Turf Moor",
+          city: "Burnley"
         },
-        matchDate: 'Tuesday 12 December 2017',
+        matchDate: "Tuesday 12 December 2017",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Burnley',
+            shortName: "Burnley"
           },
           {
-            shortName: 'Stoke',
-          },
-        ],
+            shortName: "Stoke"
+          }
+        ]
       },
       {
         ground: {
           name: "John Smith's Stadium",
-          city: 'Huddersfield',
+          city: "Huddersfield"
         },
-        matchDate: 'Tuesday 12 December 2017',
+        matchDate: "Tuesday 12 December 2017",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 3,
-          },
+            count: 3
+          }
         ],
         teams: [
           {
-            shortName: 'Huddersfield',
+            shortName: "Huddersfield"
           },
           {
-            shortName: 'Chelsea',
-          },
-        ],
+            shortName: "Chelsea"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Selhurst Park',
-          city: 'London',
+          name: "Selhurst Park",
+          city: "London"
         },
-        matchDate: 'Tuesday 12 December 2017',
+        matchDate: "Tuesday 12 December 2017",
         score: [
           {
-            count: 2,
+            count: 2
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Crystal Palace',
+            shortName: "Crystal Palace"
           },
           {
-            shortName: 'Watford',
-          },
-        ],
-      },
-    ],
+            shortName: "Watford"
+          }
+        ]
+      }
+    ]
   },
   {
-    matchDate: 'Sunday 10 December 2017',
+    matchDate: "Sunday 10 December 2017",
     matchList: [
       {
         ground: {
           name: "St. Mary's Stadium",
-          city: 'Southampton',
+          city: "Southampton"
         },
-        matchDate: 'Sunday 10 December 2017',
+        matchDate: "Sunday 10 December 2017",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Southampton',
+            shortName: "Southampton"
           },
           {
-            shortName: 'Arsenal',
-          },
-        ],
+            shortName: "Arsenal"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Anfield',
-          city: 'Liverpool',
+          name: "Anfield",
+          city: "Liverpool"
         },
-        matchDate: 'Sunday 10 December 2017',
+        matchDate: "Sunday 10 December 2017",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Liverpool',
+            shortName: "Liverpool"
           },
           {
-            shortName: 'Everton',
-          },
-        ],
+            shortName: "Everton"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Old Trafford',
-          city: 'Manchester',
+          name: "Old Trafford",
+          city: "Manchester"
         },
-        matchDate: 'Sunday 10 December 2017',
+        matchDate: "Sunday 10 December 2017",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 2,
-          },
+            count: 2
+          }
         ],
         teams: [
           {
-            shortName: 'Man Utd',
+            shortName: "Man Utd"
           },
           {
-            shortName: 'Man City',
-          },
-        ],
-      },
-    ],
+            shortName: "Man City"
+          }
+        ]
+      }
+    ]
   },
   {
-    matchDate: 'Saturday 9 December 2017',
+    matchDate: "Saturday 9 December 2017",
     matchList: [
       {
         ground: {
-          name: 'London Stadium',
-          city: 'London',
+          name: "London Stadium",
+          city: "London"
         },
-        matchDate: 'Saturday 9 December 2017',
+        matchDate: "Saturday 9 December 2017",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'West Ham',
+            shortName: "West Ham"
           },
           {
-            shortName: 'Chelsea',
-          },
-        ],
+            shortName: "Chelsea"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Wembley Stadium',
-          city: 'London',
+          name: "Wembley Stadium",
+          city: "London"
         },
-        matchDate: 'Saturday 9 December 2017',
+        matchDate: "Saturday 9 December 2017",
         score: [
           {
-            count: 5,
+            count: 5
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Spurs',
+            shortName: "Spurs"
           },
           {
-            shortName: 'Stoke',
-          },
-        ],
+            shortName: "Stoke"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Liberty Stadium',
-          city: 'Swansea',
+          name: "Liberty Stadium",
+          city: "Swansea"
         },
-        matchDate: 'Saturday 9 December 2017',
+        matchDate: "Saturday 9 December 2017",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Swansea',
+            shortName: "Swansea"
           },
           {
-            shortName: 'West Brom',
-          },
-        ],
+            shortName: "West Brom"
+          }
+        ]
       },
       {
         ground: {
           name: "John Smith's Stadium",
-          city: 'Huddersfield',
+          city: "Huddersfield"
         },
-        matchDate: 'Saturday 9 December 2017',
+        matchDate: "Saturday 9 December 2017",
         score: [
           {
-            count: 2,
+            count: 2
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Huddersfield',
+            shortName: "Huddersfield"
           },
           {
-            shortName: 'Brighton',
-          },
-        ],
+            shortName: "Brighton"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Selhurst Park',
-          city: 'London',
+          name: "Selhurst Park",
+          city: "London"
         },
-        matchDate: 'Saturday 9 December 2017',
+        matchDate: "Saturday 9 December 2017",
         score: [
           {
-            count: 2,
+            count: 2
           },
           {
-            count: 2,
-          },
+            count: 2
+          }
         ],
         teams: [
           {
-            shortName: 'Crystal Palace',
+            shortName: "Crystal Palace"
           },
           {
-            shortName: 'Bournemouth',
-          },
-        ],
+            shortName: "Bournemouth"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Turf Moor',
-          city: 'Burnley',
+          name: "Turf Moor",
+          city: "Burnley"
         },
-        matchDate: 'Saturday 9 December 2017',
+        matchDate: "Saturday 9 December 2017",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Burnley',
+            shortName: "Burnley"
           },
           {
-            shortName: 'Watford',
-          },
-        ],
+            shortName: "Watford"
+          }
+        ]
       },
       {
         ground: {
           name: "St. James' Park",
-          city: 'Newcastle',
+          city: "Newcastle"
         },
-        matchDate: 'Saturday 9 December 2017',
+        matchDate: "Saturday 9 December 2017",
         score: [
           {
-            count: 2,
+            count: 2
           },
           {
-            count: 3,
-          },
+            count: 3
+          }
         ],
         teams: [
           {
-            shortName: 'Newcastle',
+            shortName: "Newcastle"
           },
           {
-            shortName: 'Leicester',
-          },
-        ],
-      },
-    ],
+            shortName: "Leicester"
+          }
+        ]
+      }
+    ]
   },
   {
-    matchDate: 'Sunday 3 December 2017',
+    matchDate: "Sunday 3 December 2017",
     matchList: [
       {
         ground: {
-          name: 'Vitality Stadium',
-          city: 'Bournemouth',
+          name: "Vitality Stadium",
+          city: "Bournemouth"
         },
-        matchDate: 'Sunday 3 December 2017',
+        matchDate: "Sunday 3 December 2017",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Bournemouth',
+            shortName: "Bournemouth"
           },
           {
-            shortName: 'Southampton',
-          },
-        ],
+            shortName: "Southampton"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Etihad Stadium',
-          city: 'Manchester',
+          name: "Etihad Stadium",
+          city: "Manchester"
         },
-        matchDate: 'Sunday 3 December 2017',
+        matchDate: "Sunday 3 December 2017",
         score: [
           {
-            count: 2,
+            count: 2
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Man City',
+            shortName: "Man City"
           },
           {
-            shortName: 'West Ham',
-          },
-        ],
-      },
-    ],
+            shortName: "West Ham"
+          }
+        ]
+      }
+    ]
   },
   {
-    matchDate: 'Saturday 2 December 2017',
+    matchDate: "Saturday 2 December 2017",
     matchList: [
       {
         ground: {
-          name: 'Stamford Bridge',
-          city: 'London',
+          name: "Stamford Bridge",
+          city: "London"
         },
-        matchDate: 'Saturday 2 December 2017',
+        matchDate: "Saturday 2 December 2017",
         score: [
           {
-            count: 3,
+            count: 3
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Chelsea',
+            shortName: "Chelsea"
           },
           {
-            shortName: 'Newcastle',
-          },
-        ],
+            shortName: "Newcastle"
+          }
+        ]
       },
       {
         ground: {
-          name: 'The Hawthorns',
-          city: 'West Bromwich',
+          name: "The Hawthorns",
+          city: "West Bromwich"
         },
-        matchDate: 'Saturday 2 December 2017',
+        matchDate: "Saturday 2 December 2017",
         score: [
           {
-            count: 0,
+            count: 0
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'West Brom',
+            shortName: "West Brom"
           },
           {
-            shortName: 'Crystal Palace',
-          },
-        ],
+            shortName: "Crystal Palace"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Vicarage Road',
-          city: 'Watford',
+          name: "Vicarage Road",
+          city: "Watford"
         },
-        matchDate: 'Saturday 2 December 2017',
+        matchDate: "Saturday 2 December 2017",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Watford',
+            shortName: "Watford"
           },
           {
-            shortName: 'Spurs',
-          },
-        ],
+            shortName: "Spurs"
+          }
+        ]
       },
       {
         ground: {
-          name: 'bet365 Stadium',
-          city: 'Stoke',
+          name: "bet365 Stadium",
+          city: "Stoke"
         },
-        matchDate: 'Saturday 2 December 2017',
+        matchDate: "Saturday 2 December 2017",
         score: [
           {
-            count: 2,
+            count: 2
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Stoke',
+            shortName: "Stoke"
           },
           {
-            shortName: 'Swansea',
-          },
-        ],
+            shortName: "Swansea"
+          }
+        ]
       },
       {
         ground: {
-          name: 'King Power Stadium',
-          city: 'Leicester',
+          name: "King Power Stadium",
+          city: "Leicester"
         },
-        matchDate: 'Saturday 2 December 2017',
+        matchDate: "Saturday 2 December 2017",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Leicester',
+            shortName: "Leicester"
           },
           {
-            shortName: 'Burnley',
-          },
-        ],
+            shortName: "Burnley"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Goodison Park',
-          city: 'Liverpool',
+          name: "Goodison Park",
+          city: "Liverpool"
         },
-        matchDate: 'Saturday 2 December 2017',
+        matchDate: "Saturday 2 December 2017",
         score: [
           {
-            count: 2,
+            count: 2
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Everton',
+            shortName: "Everton"
           },
           {
-            shortName: 'Huddersfield',
-          },
-        ],
+            shortName: "Huddersfield"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Amex Stadium',
-          city: 'Falmer',
+          name: "Amex Stadium",
+          city: "Falmer"
         },
-        matchDate: 'Saturday 2 December 2017',
+        matchDate: "Saturday 2 December 2017",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 5,
-          },
+            count: 5
+          }
         ],
         teams: [
           {
-            shortName: 'Brighton',
+            shortName: "Brighton"
           },
           {
-            shortName: 'Liverpool',
-          },
-        ],
+            shortName: "Liverpool"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Emirates Stadium',
-          city: 'London',
+          name: "Emirates Stadium",
+          city: "London"
         },
-        matchDate: 'Saturday 2 December 2017',
+        matchDate: "Saturday 2 December 2017",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 3,
-          },
+            count: 3
+          }
         ],
         teams: [
           {
-            shortName: 'Arsenal',
+            shortName: "Arsenal"
           },
           {
-            shortName: 'Man Utd',
-          },
-        ],
-      },
-    ],
+            shortName: "Man Utd"
+          }
+        ]
+      }
+    ]
   },
   {
-    matchDate: 'Wednesday 29 November 2017',
+    matchDate: "Wednesday 29 November 2017",
     matchList: [
       {
         ground: {
-          name: 'bet365 Stadium',
-          city: 'Stoke',
+          name: "bet365 Stadium",
+          city: "Stoke"
         },
-        matchDate: 'Wednesday 29 November 2017',
+        matchDate: "Wednesday 29 November 2017",
         score: [
           {
-            count: 0,
+            count: 0
           },
           {
-            count: 3,
-          },
+            count: 3
+          }
         ],
         teams: [
           {
-            shortName: 'Stoke',
+            shortName: "Stoke"
           },
           {
-            shortName: 'Liverpool',
-          },
-        ],
+            shortName: "Liverpool"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Etihad Stadium',
-          city: 'Manchester',
+          name: "Etihad Stadium",
+          city: "Manchester"
         },
-        matchDate: 'Wednesday 29 November 2017',
+        matchDate: "Wednesday 29 November 2017",
         score: [
           {
-            count: 2,
+            count: 2
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Man City',
+            shortName: "Man City"
           },
           {
-            shortName: 'Southampton',
-          },
-        ],
+            shortName: "Southampton"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Goodison Park',
-          city: 'Liverpool',
+          name: "Goodison Park",
+          city: "Liverpool"
         },
-        matchDate: 'Wednesday 29 November 2017',
+        matchDate: "Wednesday 29 November 2017",
         score: [
           {
-            count: 4,
+            count: 4
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Everton',
+            shortName: "Everton"
           },
           {
-            shortName: 'West Ham',
-          },
-        ],
+            shortName: "West Ham"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Stamford Bridge',
-          city: 'London',
+          name: "Stamford Bridge",
+          city: "London"
         },
-        matchDate: 'Wednesday 29 November 2017',
+        matchDate: "Wednesday 29 November 2017",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Chelsea',
+            shortName: "Chelsea"
           },
           {
-            shortName: 'Swansea',
-          },
-        ],
+            shortName: "Swansea"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Vitality Stadium',
-          city: 'Bournemouth',
+          name: "Vitality Stadium",
+          city: "Bournemouth"
         },
-        matchDate: 'Wednesday 29 November 2017',
+        matchDate: "Wednesday 29 November 2017",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 2,
-          },
+            count: 2
+          }
         ],
         teams: [
           {
-            shortName: 'Bournemouth',
+            shortName: "Bournemouth"
           },
           {
-            shortName: 'Burnley',
-          },
-        ],
+            shortName: "Burnley"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Emirates Stadium',
-          city: 'London',
+          name: "Emirates Stadium",
+          city: "London"
         },
-        matchDate: 'Wednesday 29 November 2017',
+        matchDate: "Wednesday 29 November 2017",
         score: [
           {
-            count: 5,
+            count: 5
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Arsenal',
+            shortName: "Arsenal"
           },
           {
-            shortName: 'Huddersfield',
-          },
-        ],
-      },
-    ],
+            shortName: "Huddersfield"
+          }
+        ]
+      }
+    ]
   },
   {
-    matchDate: 'Tuesday 28 November 2017',
+    matchDate: "Tuesday 28 November 2017",
     matchList: [
       {
         ground: {
-          name: 'King Power Stadium',
-          city: 'Leicester',
+          name: "King Power Stadium",
+          city: "Leicester"
         },
-        matchDate: 'Tuesday 28 November 2017',
+        matchDate: "Tuesday 28 November 2017",
         score: [
           {
-            count: 2,
+            count: 2
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Leicester',
+            shortName: "Leicester"
           },
           {
-            shortName: 'Spurs',
-          },
-        ],
+            shortName: "Spurs"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Amex Stadium',
-          city: 'Falmer',
+          name: "Amex Stadium",
+          city: "Falmer"
         },
-        matchDate: 'Tuesday 28 November 2017',
+        matchDate: "Tuesday 28 November 2017",
         score: [
           {
-            count: 0,
+            count: 0
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Brighton',
+            shortName: "Brighton"
           },
           {
-            shortName: 'Crystal Palace',
-          },
-        ],
+            shortName: "Crystal Palace"
+          }
+        ]
       },
       {
         ground: {
-          name: 'The Hawthorns',
-          city: 'West Bromwich',
+          name: "The Hawthorns",
+          city: "West Bromwich"
         },
-        matchDate: 'Tuesday 28 November 2017',
+        matchDate: "Tuesday 28 November 2017",
         score: [
           {
-            count: 2,
+            count: 2
           },
           {
-            count: 2,
-          },
+            count: 2
+          }
         ],
         teams: [
           {
-            shortName: 'West Brom',
+            shortName: "West Brom"
           },
           {
-            shortName: 'Newcastle',
-          },
-        ],
+            shortName: "Newcastle"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Vicarage Road',
-          city: 'Watford',
+          name: "Vicarage Road",
+          city: "Watford"
         },
-        matchDate: 'Tuesday 28 November 2017',
+        matchDate: "Tuesday 28 November 2017",
         score: [
           {
-            count: 2,
+            count: 2
           },
           {
-            count: 4,
-          },
+            count: 4
+          }
         ],
         teams: [
           {
-            shortName: 'Watford',
+            shortName: "Watford"
           },
           {
-            shortName: 'Man Utd',
-          },
-        ],
-      },
-    ],
+            shortName: "Man Utd"
+          }
+        ]
+      }
+    ]
   },
   {
-    matchDate: 'Sunday 26 November 2017',
+    matchDate: "Sunday 26 November 2017",
     matchList: [
       {
         ground: {
           name: "St. Mary's Stadium",
-          city: 'Southampton',
+          city: "Southampton"
         },
-        matchDate: 'Sunday 26 November 2017',
+        matchDate: "Sunday 26 November 2017",
         score: [
           {
-            count: 4,
+            count: 4
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Southampton',
+            shortName: "Southampton"
           },
           {
-            shortName: 'Everton',
-          },
-        ],
+            shortName: "Everton"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Turf Moor',
-          city: 'Burnley',
+          name: "Turf Moor",
+          city: "Burnley"
         },
-        matchDate: 'Sunday 26 November 2017',
+        matchDate: "Sunday 26 November 2017",
         score: [
           {
-            count: 0,
+            count: 0
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Burnley',
+            shortName: "Burnley"
           },
           {
-            shortName: 'Arsenal',
-          },
-        ],
+            shortName: "Arsenal"
+          }
+        ]
       },
       {
         ground: {
           name: "John Smith's Stadium",
-          city: 'Huddersfield',
+          city: "Huddersfield"
         },
-        matchDate: 'Sunday 26 November 2017',
+        matchDate: "Sunday 26 November 2017",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 2,
-          },
+            count: 2
+          }
         ],
         teams: [
           {
-            shortName: 'Huddersfield',
+            shortName: "Huddersfield"
           },
           {
-            shortName: 'Man City',
-          },
-        ],
-      },
-    ],
+            shortName: "Man City"
+          }
+        ]
+      }
+    ]
   },
   {
-    matchDate: 'Saturday 25 November 2017',
+    matchDate: "Saturday 25 November 2017",
     matchList: [
       {
         ground: {
-          name: 'Wembley Stadium',
-          city: 'London',
+          name: "Wembley Stadium",
+          city: "London"
         },
-        matchDate: 'Saturday 25 November 2017',
+        matchDate: "Saturday 25 November 2017",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Spurs',
+            shortName: "Spurs"
           },
           {
-            shortName: 'West Brom',
-          },
-        ],
+            shortName: "West Brom"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Liberty Stadium',
-          city: 'Swansea',
+          name: "Liberty Stadium",
+          city: "Swansea"
         },
-        matchDate: 'Saturday 25 November 2017',
+        matchDate: "Saturday 25 November 2017",
         score: [
           {
-            count: 0,
+            count: 0
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Swansea',
+            shortName: "Swansea"
           },
           {
-            shortName: 'Bournemouth',
-          },
-        ],
+            shortName: "Bournemouth"
+          }
+        ]
       },
       {
         ground: {
           name: "St. James' Park",
-          city: 'Newcastle',
+          city: "Newcastle"
         },
-        matchDate: 'Saturday 25 November 2017',
+        matchDate: "Saturday 25 November 2017",
         score: [
           {
-            count: 0,
+            count: 0
           },
           {
-            count: 3,
-          },
+            count: 3
+          }
         ],
         teams: [
           {
-            shortName: 'Newcastle',
+            shortName: "Newcastle"
           },
           {
-            shortName: 'Watford',
-          },
-        ],
+            shortName: "Watford"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Old Trafford',
-          city: 'Manchester',
+          name: "Old Trafford",
+          city: "Manchester"
         },
-        matchDate: 'Saturday 25 November 2017',
+        matchDate: "Saturday 25 November 2017",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Man Utd',
+            shortName: "Man Utd"
           },
           {
-            shortName: 'Brighton',
-          },
-        ],
+            shortName: "Brighton"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Selhurst Park',
-          city: 'London',
+          name: "Selhurst Park",
+          city: "London"
         },
-        matchDate: 'Saturday 25 November 2017',
+        matchDate: "Saturday 25 November 2017",
         score: [
           {
-            count: 2,
+            count: 2
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Crystal Palace',
+            shortName: "Crystal Palace"
           },
           {
-            shortName: 'Stoke',
-          },
-        ],
+            shortName: "Stoke"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Anfield',
-          city: 'Liverpool',
+          name: "Anfield",
+          city: "Liverpool"
         },
-        matchDate: 'Saturday 25 November 2017',
+        matchDate: "Saturday 25 November 2017",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Liverpool',
+            shortName: "Liverpool"
           },
           {
-            shortName: 'Chelsea',
-          },
-        ],
-      },
-    ],
+            shortName: "Chelsea"
+          }
+        ]
+      }
+    ]
   },
   {
-    matchDate: 'Friday 24 November 2017',
+    matchDate: "Friday 24 November 2017",
     matchList: [
       {
         ground: {
-          name: 'London Stadium',
-          city: 'London',
+          name: "London Stadium",
+          city: "London"
         },
-        matchDate: 'Friday 24 November 2017',
+        matchDate: "Friday 24 November 2017",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'West Ham',
+            shortName: "West Ham"
           },
           {
-            shortName: 'Leicester',
-          },
-        ],
-      },
-    ],
+            shortName: "Leicester"
+          }
+        ]
+      }
+    ]
   },
   {
-    matchDate: 'Monday 20 November 2017',
+    matchDate: "Monday 20 November 2017",
     matchList: [
       {
         ground: {
-          name: 'Amex Stadium',
-          city: 'Falmer',
+          name: "Amex Stadium",
+          city: "Falmer"
         },
-        matchDate: 'Monday 20 November 2017',
+        matchDate: "Monday 20 November 2017",
         score: [
           {
-            count: 2,
+            count: 2
           },
           {
-            count: 2,
-          },
+            count: 2
+          }
         ],
         teams: [
           {
-            shortName: 'Brighton',
+            shortName: "Brighton"
           },
           {
-            shortName: 'Stoke',
-          },
-        ],
-      },
-    ],
+            shortName: "Stoke"
+          }
+        ]
+      }
+    ]
   },
   {
-    matchDate: 'Sunday 19 November 2017',
+    matchDate: "Sunday 19 November 2017",
     matchList: [
       {
         ground: {
-          name: 'Vicarage Road',
-          city: 'Watford',
+          name: "Vicarage Road",
+          city: "Watford"
         },
-        matchDate: 'Sunday 19 November 2017',
+        matchDate: "Sunday 19 November 2017",
         score: [
           {
-            count: 2,
+            count: 2
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Watford',
+            shortName: "Watford"
           },
           {
-            shortName: 'West Ham',
-          },
-        ],
-      },
-    ],
+            shortName: "West Ham"
+          }
+        ]
+      }
+    ]
   },
   {
-    matchDate: 'Saturday 18 November 2017',
+    matchDate: "Saturday 18 November 2017",
     matchList: [
       {
         ground: {
-          name: 'Emirates Stadium',
-          city: 'London',
+          name: "Emirates Stadium",
+          city: "London"
         },
-        matchDate: 'Saturday 18 November 2017',
+        matchDate: "Saturday 18 November 2017",
         score: [
           {
-            count: 2,
+            count: 2
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Arsenal',
+            shortName: "Arsenal"
           },
           {
-            shortName: 'Spurs',
-          },
-        ],
+            shortName: "Spurs"
+          }
+        ]
       },
       {
         ground: {
-          name: 'The Hawthorns',
-          city: 'West Bromwich',
+          name: "The Hawthorns",
+          city: "West Bromwich"
         },
-        matchDate: 'Saturday 18 November 2017',
+        matchDate: "Saturday 18 November 2017",
         score: [
           {
-            count: 0,
+            count: 0
           },
           {
-            count: 4,
-          },
+            count: 4
+          }
         ],
         teams: [
           {
-            shortName: 'West Brom',
+            shortName: "West Brom"
           },
           {
-            shortName: 'Chelsea',
-          },
-        ],
+            shortName: "Chelsea"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Anfield',
-          city: 'Liverpool',
+          name: "Anfield",
+          city: "Liverpool"
         },
-        matchDate: 'Saturday 18 November 2017',
+        matchDate: "Saturday 18 November 2017",
         score: [
           {
-            count: 3,
+            count: 3
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Liverpool',
+            shortName: "Liverpool"
           },
           {
-            shortName: 'Southampton',
-          },
-        ],
+            shortName: "Southampton"
+          }
+        ]
       },
       {
         ground: {
-          name: 'King Power Stadium',
-          city: 'Leicester',
+          name: "King Power Stadium",
+          city: "Leicester"
         },
-        matchDate: 'Saturday 18 November 2017',
+        matchDate: "Saturday 18 November 2017",
         score: [
           {
-            count: 0,
+            count: 0
           },
           {
-            count: 2,
-          },
+            count: 2
+          }
         ],
         teams: [
           {
-            shortName: 'Leicester',
+            shortName: "Leicester"
           },
           {
-            shortName: 'Man City',
-          },
-        ],
+            shortName: "Man City"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Selhurst Park',
-          city: 'London',
+          name: "Selhurst Park",
+          city: "London"
         },
-        matchDate: 'Saturday 18 November 2017',
+        matchDate: "Saturday 18 November 2017",
         score: [
           {
-            count: 2,
+            count: 2
           },
           {
-            count: 2,
-          },
+            count: 2
+          }
         ],
         teams: [
           {
-            shortName: 'Crystal Palace',
+            shortName: "Crystal Palace"
           },
           {
-            shortName: 'Everton',
-          },
-        ],
+            shortName: "Everton"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Turf Moor',
-          city: 'Burnley',
+          name: "Turf Moor",
+          city: "Burnley"
         },
-        matchDate: 'Saturday 18 November 2017',
+        matchDate: "Saturday 18 November 2017",
         score: [
           {
-            count: 2,
+            count: 2
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Burnley',
+            shortName: "Burnley"
           },
           {
-            shortName: 'Swansea',
-          },
-        ],
+            shortName: "Swansea"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Vitality Stadium',
-          city: 'Bournemouth',
+          name: "Vitality Stadium",
+          city: "Bournemouth"
         },
-        matchDate: 'Saturday 18 November 2017',
+        matchDate: "Saturday 18 November 2017",
         score: [
           {
-            count: 4,
+            count: 4
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Bournemouth',
+            shortName: "Bournemouth"
           },
           {
-            shortName: 'Huddersfield',
-          },
-        ],
+            shortName: "Huddersfield"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Old Trafford',
-          city: 'Manchester',
+          name: "Old Trafford",
+          city: "Manchester"
         },
-        matchDate: 'Saturday 18 November 2017',
+        matchDate: "Saturday 18 November 2017",
         score: [
           {
-            count: 4,
+            count: 4
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Man Utd',
+            shortName: "Man Utd"
           },
           {
-            shortName: 'Newcastle',
-          },
-        ],
-      },
-    ],
+            shortName: "Newcastle"
+          }
+        ]
+      }
+    ]
   },
   {
-    matchDate: 'Sunday 5 November 2017',
+    matchDate: "Sunday 5 November 2017",
     matchList: [
       {
         ground: {
-          name: 'Wembley Stadium',
-          city: 'London',
+          name: "Wembley Stadium",
+          city: "London"
         },
-        matchDate: 'Sunday 5 November 2017',
+        matchDate: "Sunday 5 November 2017",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Spurs',
+            shortName: "Spurs"
           },
           {
-            shortName: 'Crystal Palace',
-          },
-        ],
+            shortName: "Crystal Palace"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Etihad Stadium',
-          city: 'Manchester',
+          name: "Etihad Stadium",
+          city: "Manchester"
         },
-        matchDate: 'Sunday 5 November 2017',
+        matchDate: "Sunday 5 November 2017",
         score: [
           {
-            count: 3,
+            count: 3
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Man City',
+            shortName: "Man City"
           },
           {
-            shortName: 'Arsenal',
-          },
-        ],
+            shortName: "Arsenal"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Goodison Park',
-          city: 'Liverpool',
+          name: "Goodison Park",
+          city: "Liverpool"
         },
-        matchDate: 'Sunday 5 November 2017',
+        matchDate: "Sunday 5 November 2017",
         score: [
           {
-            count: 3,
+            count: 3
           },
           {
-            count: 2,
-          },
+            count: 2
+          }
         ],
         teams: [
           {
-            shortName: 'Everton',
+            shortName: "Everton"
           },
           {
-            shortName: 'Watford',
-          },
-        ],
+            shortName: "Watford"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Stamford Bridge',
-          city: 'London',
+          name: "Stamford Bridge",
+          city: "London"
         },
-        matchDate: 'Sunday 5 November 2017',
+        matchDate: "Sunday 5 November 2017",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Chelsea',
+            shortName: "Chelsea"
           },
           {
-            shortName: 'Man Utd',
-          },
-        ],
-      },
-    ],
+            shortName: "Man Utd"
+          }
+        ]
+      }
+    ]
   },
   {
-    matchDate: 'Saturday 4 November 2017',
+    matchDate: "Saturday 4 November 2017",
     matchList: [
       {
         ground: {
-          name: 'bet365 Stadium',
-          city: 'Stoke',
+          name: "bet365 Stadium",
+          city: "Stoke"
         },
-        matchDate: 'Saturday 4 November 2017',
+        matchDate: "Saturday 4 November 2017",
         score: [
           {
-            count: 2,
+            count: 2
           },
           {
-            count: 2,
-          },
+            count: 2
+          }
         ],
         teams: [
           {
-            shortName: 'Stoke',
+            shortName: "Stoke"
           },
           {
-            shortName: 'Leicester',
-          },
-        ],
+            shortName: "Leicester"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Liberty Stadium',
-          city: 'Swansea',
+          name: "Liberty Stadium",
+          city: "Swansea"
         },
-        matchDate: 'Saturday 4 November 2017',
+        matchDate: "Saturday 4 November 2017",
         score: [
           {
-            count: 0,
+            count: 0
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Swansea',
+            shortName: "Swansea"
           },
           {
-            shortName: 'Brighton',
-          },
-        ],
+            shortName: "Brighton"
+          }
+        ]
       },
       {
         ground: {
           name: "St. Mary's Stadium",
-          city: 'Southampton',
+          city: "Southampton"
         },
-        matchDate: 'Saturday 4 November 2017',
+        matchDate: "Saturday 4 November 2017",
         score: [
           {
-            count: 0,
+            count: 0
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Southampton',
+            shortName: "Southampton"
           },
           {
-            shortName: 'Burnley',
-          },
-        ],
+            shortName: "Burnley"
+          }
+        ]
       },
       {
         ground: {
           name: "St. James' Park",
-          city: 'Newcastle',
+          city: "Newcastle"
         },
-        matchDate: 'Saturday 4 November 2017',
+        matchDate: "Saturday 4 November 2017",
         score: [
           {
-            count: 0,
+            count: 0
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Newcastle',
+            shortName: "Newcastle"
           },
           {
-            shortName: 'Bournemouth',
-          },
-        ],
+            shortName: "Bournemouth"
+          }
+        ]
       },
       {
         ground: {
           name: "John Smith's Stadium",
-          city: 'Huddersfield',
+          city: "Huddersfield"
         },
-        matchDate: 'Saturday 4 November 2017',
+        matchDate: "Saturday 4 November 2017",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Huddersfield',
+            shortName: "Huddersfield"
           },
           {
-            shortName: 'West Brom',
-          },
-        ],
+            shortName: "West Brom"
+          }
+        ]
       },
       {
         ground: {
-          name: 'London Stadium',
-          city: 'London',
+          name: "London Stadium",
+          city: "London"
         },
-        matchDate: 'Saturday 4 November 2017',
+        matchDate: "Saturday 4 November 2017",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 4,
-          },
+            count: 4
+          }
         ],
         teams: [
           {
-            shortName: 'West Ham',
+            shortName: "West Ham"
           },
           {
-            shortName: 'Liverpool',
-          },
-        ],
-      },
-    ],
+            shortName: "Liverpool"
+          }
+        ]
+      }
+    ]
   },
   {
-    matchDate: 'Monday 30 October 2017',
+    matchDate: "Monday 30 October 2017",
     matchList: [
       {
         ground: {
-          name: 'Turf Moor',
-          city: 'Burnley',
+          name: "Turf Moor",
+          city: "Burnley"
         },
-        matchDate: 'Monday 30 October 2017',
+        matchDate: "Monday 30 October 2017",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Burnley',
+            shortName: "Burnley"
           },
           {
-            shortName: 'Newcastle',
-          },
-        ],
-      },
-    ],
+            shortName: "Newcastle"
+          }
+        ]
+      }
+    ]
   },
   {
-    matchDate: 'Sunday 29 October 2017',
+    matchDate: "Sunday 29 October 2017",
     matchList: [
       {
         ground: {
-          name: 'Amex Stadium',
-          city: 'Falmer',
+          name: "Amex Stadium",
+          city: "Falmer"
         },
-        matchDate: 'Sunday 29 October 2017',
+        matchDate: "Sunday 29 October 2017",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Brighton',
+            shortName: "Brighton"
           },
           {
-            shortName: 'Southampton',
-          },
-        ],
+            shortName: "Southampton"
+          }
+        ]
       },
       {
         ground: {
-          name: 'King Power Stadium',
-          city: 'Leicester',
+          name: "King Power Stadium",
+          city: "Leicester"
         },
-        matchDate: 'Sunday 29 October 2017',
+        matchDate: "Sunday 29 October 2017",
         score: [
           {
-            count: 2,
+            count: 2
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Leicester',
+            shortName: "Leicester"
           },
           {
-            shortName: 'Everton',
-          },
-        ],
-      },
-    ],
+            shortName: "Everton"
+          }
+        ]
+      }
+    ]
   },
   {
-    matchDate: 'Saturday 28 October 2017',
+    matchDate: "Saturday 28 October 2017",
     matchList: [
       {
         ground: {
-          name: 'Old Trafford',
-          city: 'Manchester',
+          name: "Old Trafford",
+          city: "Manchester"
         },
-        matchDate: 'Saturday 28 October 2017',
+        matchDate: "Saturday 28 October 2017",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Man Utd',
+            shortName: "Man Utd"
           },
           {
-            shortName: 'Spurs',
-          },
-        ],
+            shortName: "Spurs"
+          }
+        ]
       },
       {
         ground: {
-          name: 'The Hawthorns',
-          city: 'West Bromwich',
+          name: "The Hawthorns",
+          city: "West Bromwich"
         },
-        matchDate: 'Saturday 28 October 2017',
+        matchDate: "Saturday 28 October 2017",
         score: [
           {
-            count: 2,
+            count: 2
           },
           {
-            count: 3,
-          },
+            count: 3
+          }
         ],
         teams: [
           {
-            shortName: 'West Brom',
+            shortName: "West Brom"
           },
           {
-            shortName: 'Man City',
-          },
-        ],
+            shortName: "Man City"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Vicarage Road',
-          city: 'Watford',
+          name: "Vicarage Road",
+          city: "Watford"
         },
-        matchDate: 'Saturday 28 October 2017',
+        matchDate: "Saturday 28 October 2017",
         score: [
           {
-            count: 0,
+            count: 0
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Watford',
+            shortName: "Watford"
           },
           {
-            shortName: 'Stoke',
-          },
-        ],
+            shortName: "Stoke"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Anfield',
-          city: 'Liverpool',
+          name: "Anfield",
+          city: "Liverpool"
         },
-        matchDate: 'Saturday 28 October 2017',
+        matchDate: "Saturday 28 October 2017",
         score: [
           {
-            count: 3,
+            count: 3
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Liverpool',
+            shortName: "Liverpool"
           },
           {
-            shortName: 'Huddersfield',
-          },
-        ],
+            shortName: "Huddersfield"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Selhurst Park',
-          city: 'London',
+          name: "Selhurst Park",
+          city: "London"
         },
-        matchDate: 'Saturday 28 October 2017',
+        matchDate: "Saturday 28 October 2017",
         score: [
           {
-            count: 2,
+            count: 2
           },
           {
-            count: 2,
-          },
+            count: 2
+          }
         ],
         teams: [
           {
-            shortName: 'Crystal Palace',
+            shortName: "Crystal Palace"
           },
           {
-            shortName: 'West Ham',
-          },
-        ],
+            shortName: "West Ham"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Emirates Stadium',
-          city: 'London',
+          name: "Emirates Stadium",
+          city: "London"
         },
-        matchDate: 'Saturday 28 October 2017',
+        matchDate: "Saturday 28 October 2017",
         score: [
           {
-            count: 2,
+            count: 2
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Arsenal',
+            shortName: "Arsenal"
           },
           {
-            shortName: 'Swansea',
-          },
-        ],
+            shortName: "Swansea"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Vitality Stadium',
-          city: 'Bournemouth',
+          name: "Vitality Stadium",
+          city: "Bournemouth"
         },
-        matchDate: 'Saturday 28 October 2017',
+        matchDate: "Saturday 28 October 2017",
         score: [
           {
-            count: 0,
+            count: 0
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Bournemouth',
+            shortName: "Bournemouth"
           },
           {
-            shortName: 'Chelsea',
-          },
-        ],
-      },
-    ],
+            shortName: "Chelsea"
+          }
+        ]
+      }
+    ]
   },
   {
-    matchDate: 'Sunday 22 October 2017',
+    matchDate: "Sunday 22 October 2017",
     matchList: [
       {
         ground: {
-          name: 'Goodison Park',
-          city: 'Liverpool',
+          name: "Goodison Park",
+          city: "Liverpool"
         },
-        matchDate: 'Sunday 22 October 2017',
+        matchDate: "Sunday 22 October 2017",
         score: [
           {
-            count: 2,
+            count: 2
           },
           {
-            count: 5,
-          },
+            count: 5
+          }
         ],
         teams: [
           {
-            shortName: 'Everton',
+            shortName: "Everton"
           },
           {
-            shortName: 'Arsenal',
-          },
-        ],
+            shortName: "Arsenal"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Wembley Stadium',
-          city: 'London',
+          name: "Wembley Stadium",
+          city: "London"
         },
-        matchDate: 'Sunday 22 October 2017',
+        matchDate: "Sunday 22 October 2017",
         score: [
           {
-            count: 4,
+            count: 4
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Spurs',
+            shortName: "Spurs"
           },
           {
-            shortName: 'Liverpool',
-          },
-        ],
-      },
-    ],
+            shortName: "Liverpool"
+          }
+        ]
+      }
+    ]
   },
   {
-    matchDate: 'Saturday 21 October 2017',
+    matchDate: "Saturday 21 October 2017",
     matchList: [
       {
         ground: {
-          name: 'Stamford Bridge',
-          city: 'London',
+          name: "Stamford Bridge",
+          city: "London"
         },
-        matchDate: 'Saturday 21 October 2017',
+        matchDate: "Saturday 21 October 2017",
         score: [
           {
-            count: 4,
+            count: 4
           },
           {
-            count: 2,
-          },
+            count: 2
+          }
         ],
         teams: [
           {
-            shortName: 'Chelsea',
+            shortName: "Chelsea"
           },
           {
-            shortName: 'Watford',
-          },
-        ],
+            shortName: "Watford"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Liberty Stadium',
-          city: 'Swansea',
+          name: "Liberty Stadium",
+          city: "Swansea"
         },
-        matchDate: 'Saturday 21 October 2017',
+        matchDate: "Saturday 21 October 2017",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 2,
-          },
+            count: 2
+          }
         ],
         teams: [
           {
-            shortName: 'Swansea',
+            shortName: "Swansea"
           },
           {
-            shortName: 'Leicester',
-          },
-        ],
+            shortName: "Leicester"
+          }
+        ]
       },
       {
         ground: {
-          name: 'bet365 Stadium',
-          city: 'Stoke',
+          name: "bet365 Stadium",
+          city: "Stoke"
         },
-        matchDate: 'Saturday 21 October 2017',
+        matchDate: "Saturday 21 October 2017",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 2,
-          },
+            count: 2
+          }
         ],
         teams: [
           {
-            shortName: 'Stoke',
+            shortName: "Stoke"
           },
           {
-            shortName: 'Bournemouth',
-          },
-        ],
+            shortName: "Bournemouth"
+          }
+        ]
       },
       {
         ground: {
           name: "St. James' Park",
-          city: 'Newcastle',
+          city: "Newcastle"
         },
-        matchDate: 'Saturday 21 October 2017',
+        matchDate: "Saturday 21 October 2017",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Newcastle',
+            shortName: "Newcastle"
           },
           {
-            shortName: 'Crystal Palace',
-          },
-        ],
+            shortName: "Crystal Palace"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Etihad Stadium',
-          city: 'Manchester',
+          name: "Etihad Stadium",
+          city: "Manchester"
         },
-        matchDate: 'Saturday 21 October 2017',
+        matchDate: "Saturday 21 October 2017",
         score: [
           {
-            count: 3,
+            count: 3
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Man City',
+            shortName: "Man City"
           },
           {
-            shortName: 'Burnley',
-          },
-        ],
+            shortName: "Burnley"
+          }
+        ]
       },
       {
         ground: {
           name: "John Smith's Stadium",
-          city: 'Huddersfield',
+          city: "Huddersfield"
         },
-        matchDate: 'Saturday 21 October 2017',
+        matchDate: "Saturday 21 October 2017",
         score: [
           {
-            count: 2,
+            count: 2
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Huddersfield',
+            shortName: "Huddersfield"
           },
           {
-            shortName: 'Man Utd',
-          },
-        ],
+            shortName: "Man Utd"
+          }
+        ]
       },
       {
         ground: {
           name: "St. Mary's Stadium",
-          city: 'Southampton',
+          city: "Southampton"
         },
-        matchDate: 'Saturday 21 October 2017',
+        matchDate: "Saturday 21 October 2017",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Southampton',
+            shortName: "Southampton"
           },
           {
-            shortName: 'West Brom',
-          },
-        ],
-      },
-    ],
+            shortName: "West Brom"
+          }
+        ]
+      }
+    ]
   },
   {
-    matchDate: 'Friday 20 October 2017',
+    matchDate: "Friday 20 October 2017",
     matchList: [
       {
         ground: {
-          name: 'London Stadium',
-          city: 'London',
+          name: "London Stadium",
+          city: "London"
         },
-        matchDate: 'Friday 20 October 2017',
+        matchDate: "Friday 20 October 2017",
         score: [
           {
-            count: 0,
+            count: 0
           },
           {
-            count: 3,
-          },
+            count: 3
+          }
         ],
         teams: [
           {
-            shortName: 'West Ham',
+            shortName: "West Ham"
           },
           {
-            shortName: 'Brighton',
-          },
-        ],
-      },
-    ],
+            shortName: "Brighton"
+          }
+        ]
+      }
+    ]
   },
   {
-    matchDate: 'Monday 16 October 2017',
+    matchDate: "Monday 16 October 2017",
     matchList: [
       {
         ground: {
-          name: 'King Power Stadium',
-          city: 'Leicester',
+          name: "King Power Stadium",
+          city: "Leicester"
         },
-        matchDate: 'Monday 16 October 2017',
+        matchDate: "Monday 16 October 2017",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Leicester',
+            shortName: "Leicester"
           },
           {
-            shortName: 'West Brom',
-          },
-        ],
-      },
-    ],
+            shortName: "West Brom"
+          }
+        ]
+      }
+    ]
   },
   {
-    matchDate: 'Sunday 15 October 2017',
+    matchDate: "Sunday 15 October 2017",
     matchList: [
       {
         ground: {
-          name: 'Amex Stadium',
-          city: 'Falmer',
+          name: "Amex Stadium",
+          city: "Falmer"
         },
-        matchDate: 'Sunday 15 October 2017',
+        matchDate: "Sunday 15 October 2017",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Brighton',
+            shortName: "Brighton"
           },
           {
-            shortName: 'Everton',
-          },
-        ],
+            shortName: "Everton"
+          }
+        ]
       },
       {
         ground: {
           name: "St. Mary's Stadium",
-          city: 'Southampton',
+          city: "Southampton"
         },
-        matchDate: 'Sunday 15 October 2017',
+        matchDate: "Sunday 15 October 2017",
         score: [
           {
-            count: 2,
+            count: 2
           },
           {
-            count: 2,
-          },
+            count: 2
+          }
         ],
         teams: [
           {
-            shortName: 'Southampton',
+            shortName: "Southampton"
           },
           {
-            shortName: 'Newcastle',
-          },
-        ],
-      },
-    ],
+            shortName: "Newcastle"
+          }
+        ]
+      }
+    ]
   },
   {
-    matchDate: 'Saturday 14 October 2017',
+    matchDate: "Saturday 14 October 2017",
     matchList: [
       {
         ground: {
-          name: 'Anfield',
-          city: 'Liverpool',
+          name: "Anfield",
+          city: "Liverpool"
         },
-        matchDate: 'Saturday 14 October 2017',
+        matchDate: "Saturday 14 October 2017",
         score: [
           {
-            count: 0,
+            count: 0
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Liverpool',
+            shortName: "Liverpool"
           },
           {
-            shortName: 'Man Utd',
-          },
-        ],
+            shortName: "Man Utd"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Wembley Stadium',
-          city: 'London',
+          name: "Wembley Stadium",
+          city: "London"
         },
-        matchDate: 'Saturday 14 October 2017',
+        matchDate: "Saturday 14 October 2017",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Spurs',
+            shortName: "Spurs"
           },
           {
-            shortName: 'Bournemouth',
-          },
-        ],
+            shortName: "Bournemouth"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Liberty Stadium',
-          city: 'Swansea',
+          name: "Liberty Stadium",
+          city: "Swansea"
         },
-        matchDate: 'Saturday 14 October 2017',
+        matchDate: "Saturday 14 October 2017",
         score: [
           {
-            count: 2,
+            count: 2
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Swansea',
+            shortName: "Swansea"
           },
           {
-            shortName: 'Huddersfield',
-          },
-        ],
+            shortName: "Huddersfield"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Etihad Stadium',
-          city: 'Manchester',
+          name: "Etihad Stadium",
+          city: "Manchester"
         },
-        matchDate: 'Saturday 14 October 2017',
+        matchDate: "Saturday 14 October 2017",
         score: [
           {
-            count: 7,
+            count: 7
           },
           {
-            count: 2,
-          },
+            count: 2
+          }
         ],
         teams: [
           {
-            shortName: 'Man City',
+            shortName: "Man City"
           },
           {
-            shortName: 'Stoke',
-          },
-        ],
+            shortName: "Stoke"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Selhurst Park',
-          city: 'London',
+          name: "Selhurst Park",
+          city: "London"
         },
-        matchDate: 'Saturday 14 October 2017',
+        matchDate: "Saturday 14 October 2017",
         score: [
           {
-            count: 2,
+            count: 2
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Crystal Palace',
+            shortName: "Crystal Palace"
           },
           {
-            shortName: 'Chelsea',
-          },
-        ],
+            shortName: "Chelsea"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Turf Moor',
-          city: 'Burnley',
+          name: "Turf Moor",
+          city: "Burnley"
         },
-        matchDate: 'Saturday 14 October 2017',
+        matchDate: "Saturday 14 October 2017",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Burnley',
+            shortName: "Burnley"
           },
           {
-            shortName: 'West Ham',
-          },
-        ],
+            shortName: "West Ham"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Vicarage Road',
-          city: 'Watford',
+          name: "Vicarage Road",
+          city: "Watford"
         },
-        matchDate: 'Saturday 14 October 2017',
+        matchDate: "Saturday 14 October 2017",
         score: [
           {
-            count: 2,
+            count: 2
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Watford',
+            shortName: "Watford"
           },
           {
-            shortName: 'Arsenal',
-          },
-        ],
-      },
-    ],
+            shortName: "Arsenal"
+          }
+        ]
+      }
+    ]
   },
   {
-    matchDate: 'Sunday 1 October 2017',
+    matchDate: "Sunday 1 October 2017",
     matchList: [
       {
         ground: {
-          name: 'Emirates Stadium',
-          city: 'London',
+          name: "Emirates Stadium",
+          city: "London"
         },
-        matchDate: 'Sunday 1 October 2017',
+        matchDate: "Sunday 1 October 2017",
         score: [
           {
-            count: 2,
+            count: 2
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Arsenal',
+            shortName: "Arsenal"
           },
           {
-            shortName: 'Brighton',
-          },
-        ],
+            shortName: "Brighton"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Goodison Park',
-          city: 'Liverpool',
+          name: "Goodison Park",
+          city: "Liverpool"
         },
-        matchDate: 'Sunday 1 October 2017',
+        matchDate: "Sunday 1 October 2017",
         score: [
           {
-            count: 0,
+            count: 0
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Everton',
+            shortName: "Everton"
           },
           {
-            shortName: 'Burnley',
-          },
-        ],
+            shortName: "Burnley"
+          }
+        ]
       },
       {
         ground: {
           name: "St. James' Park",
-          city: 'Newcastle',
+          city: "Newcastle"
         },
-        matchDate: 'Sunday 1 October 2017',
+        matchDate: "Sunday 1 October 2017",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Newcastle',
+            shortName: "Newcastle"
           },
           {
-            shortName: 'Liverpool',
-          },
-        ],
-      },
-    ],
+            shortName: "Liverpool"
+          }
+        ]
+      }
+    ]
   },
   {
-    matchDate: 'Saturday 30 September 2017',
+    matchDate: "Saturday 30 September 2017",
     matchList: [
       {
         ground: {
           name: "John Smith's Stadium",
-          city: 'Huddersfield',
+          city: "Huddersfield"
         },
-        matchDate: 'Saturday 30 September 2017',
+        matchDate: "Saturday 30 September 2017",
         score: [
           {
-            count: 0,
+            count: 0
           },
           {
-            count: 4,
-          },
+            count: 4
+          }
         ],
         teams: [
           {
-            shortName: 'Huddersfield',
+            shortName: "Huddersfield"
           },
           {
-            shortName: 'Spurs',
-          },
-        ],
+            shortName: "Spurs"
+          }
+        ]
       },
       {
         ground: {
-          name: 'London Stadium',
-          city: 'London',
+          name: "London Stadium",
+          city: "London"
         },
-        matchDate: 'Saturday 30 September 2017',
+        matchDate: "Saturday 30 September 2017",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'West Ham',
+            shortName: "West Ham"
           },
           {
-            shortName: 'Swansea',
-          },
-        ],
+            shortName: "Swansea"
+          }
+        ]
       },
       {
         ground: {
-          name: 'The Hawthorns',
-          city: 'West Bromwich',
+          name: "The Hawthorns",
+          city: "West Bromwich"
         },
-        matchDate: 'Saturday 30 September 2017',
+        matchDate: "Saturday 30 September 2017",
         score: [
           {
-            count: 2,
+            count: 2
           },
           {
-            count: 2,
-          },
+            count: 2
+          }
         ],
         teams: [
           {
-            shortName: 'West Brom',
+            shortName: "West Brom"
           },
           {
-            shortName: 'Watford',
-          },
-        ],
+            shortName: "Watford"
+          }
+        ]
       },
       {
         ground: {
-          name: 'bet365 Stadium',
-          city: 'Stoke',
+          name: "bet365 Stadium",
+          city: "Stoke"
         },
-        matchDate: 'Saturday 30 September 2017',
+        matchDate: "Saturday 30 September 2017",
         score: [
           {
-            count: 2,
+            count: 2
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Stoke',
+            shortName: "Stoke"
           },
           {
-            shortName: 'Southampton',
-          },
-        ],
+            shortName: "Southampton"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Old Trafford',
-          city: 'Manchester',
+          name: "Old Trafford",
+          city: "Manchester"
         },
-        matchDate: 'Saturday 30 September 2017',
+        matchDate: "Saturday 30 September 2017",
         score: [
           {
-            count: 4,
+            count: 4
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Man Utd',
+            shortName: "Man Utd"
           },
           {
-            shortName: 'Crystal Palace',
-          },
-        ],
+            shortName: "Crystal Palace"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Vitality Stadium',
-          city: 'Bournemouth',
+          name: "Vitality Stadium",
+          city: "Bournemouth"
         },
-        matchDate: 'Saturday 30 September 2017',
+        matchDate: "Saturday 30 September 2017",
         score: [
           {
-            count: 0,
+            count: 0
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Bournemouth',
+            shortName: "Bournemouth"
           },
           {
-            shortName: 'Leicester',
-          },
-        ],
+            shortName: "Leicester"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Stamford Bridge',
-          city: 'London',
+          name: "Stamford Bridge",
+          city: "London"
         },
-        matchDate: 'Saturday 30 September 2017',
+        matchDate: "Saturday 30 September 2017",
         score: [
           {
-            count: 0,
+            count: 0
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Chelsea',
+            shortName: "Chelsea"
           },
           {
-            shortName: 'Man City',
-          },
-        ],
-      },
-    ],
+            shortName: "Man City"
+          }
+        ]
+      }
+    ]
   },
   {
-    matchDate: 'Monday 25 September 2017',
+    matchDate: "Monday 25 September 2017",
     matchList: [
       {
         ground: {
-          name: 'Emirates Stadium',
-          city: 'London',
+          name: "Emirates Stadium",
+          city: "London"
         },
-        matchDate: 'Monday 25 September 2017',
+        matchDate: "Monday 25 September 2017",
         score: [
           {
-            count: 2,
+            count: 2
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Arsenal',
+            shortName: "Arsenal"
           },
           {
-            shortName: 'West Brom',
-          },
-        ],
-      },
-    ],
+            shortName: "West Brom"
+          }
+        ]
+      }
+    ]
   },
   {
-    matchDate: 'Sunday 24 September 2017',
+    matchDate: "Sunday 24 September 2017",
     matchList: [
       {
         ground: {
-          name: 'Amex Stadium',
-          city: 'Falmer',
+          name: "Amex Stadium",
+          city: "Falmer"
         },
-        matchDate: 'Sunday 24 September 2017',
+        matchDate: "Sunday 24 September 2017",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Brighton',
+            shortName: "Brighton"
           },
           {
-            shortName: 'Newcastle',
-          },
-        ],
-      },
-    ],
+            shortName: "Newcastle"
+          }
+        ]
+      }
+    ]
   },
   {
-    matchDate: 'Saturday 23 September 2017',
+    matchDate: "Saturday 23 September 2017",
     matchList: [
       {
         ground: {
-          name: 'King Power Stadium',
-          city: 'Leicester',
+          name: "King Power Stadium",
+          city: "Leicester"
         },
-        matchDate: 'Saturday 23 September 2017',
+        matchDate: "Saturday 23 September 2017",
         score: [
           {
-            count: 2,
+            count: 2
           },
           {
-            count: 3,
-          },
+            count: 3
+          }
         ],
         teams: [
           {
-            shortName: 'Leicester',
+            shortName: "Leicester"
           },
           {
-            shortName: 'Liverpool',
-          },
-        ],
+            shortName: "Liverpool"
+          }
+        ]
       },
       {
         ground: {
-          name: 'London Stadium',
-          city: 'London',
+          name: "London Stadium",
+          city: "London"
         },
-        matchDate: 'Saturday 23 September 2017',
+        matchDate: "Saturday 23 September 2017",
         score: [
           {
-            count: 2,
+            count: 2
           },
           {
-            count: 3,
-          },
+            count: 3
+          }
         ],
         teams: [
           {
-            shortName: 'West Ham',
+            shortName: "West Ham"
           },
           {
-            shortName: 'Spurs',
-          },
-        ],
+            shortName: "Spurs"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Liberty Stadium',
-          city: 'Swansea',
+          name: "Liberty Stadium",
+          city: "Swansea"
         },
-        matchDate: 'Saturday 23 September 2017',
+        matchDate: "Saturday 23 September 2017",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 2,
-          },
+            count: 2
+          }
         ],
         teams: [
           {
-            shortName: 'Swansea',
+            shortName: "Swansea"
           },
           {
-            shortName: 'Watford',
-          },
-        ],
+            shortName: "Watford"
+          }
+        ]
       },
       {
         ground: {
-          name: 'bet365 Stadium',
-          city: 'Stoke',
+          name: "bet365 Stadium",
+          city: "Stoke"
         },
-        matchDate: 'Saturday 23 September 2017',
+        matchDate: "Saturday 23 September 2017",
         score: [
           {
-            count: 0,
+            count: 0
           },
           {
-            count: 4,
-          },
+            count: 4
+          }
         ],
         teams: [
           {
-            shortName: 'Stoke',
+            shortName: "Stoke"
           },
           {
-            shortName: 'Chelsea',
-          },
-        ],
+            shortName: "Chelsea"
+          }
+        ]
       },
       {
         ground: {
           name: "St. Mary's Stadium",
-          city: 'Southampton',
+          city: "Southampton"
         },
-        matchDate: 'Saturday 23 September 2017',
+        matchDate: "Saturday 23 September 2017",
         score: [
           {
-            count: 0,
+            count: 0
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Southampton',
+            shortName: "Southampton"
           },
           {
-            shortName: 'Man Utd',
-          },
-        ],
+            shortName: "Man Utd"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Etihad Stadium',
-          city: 'Manchester',
+          name: "Etihad Stadium",
+          city: "Manchester"
         },
-        matchDate: 'Saturday 23 September 2017',
+        matchDate: "Saturday 23 September 2017",
         score: [
           {
-            count: 5,
+            count: 5
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Man City',
+            shortName: "Man City"
           },
           {
-            shortName: 'Crystal Palace',
-          },
-        ],
+            shortName: "Crystal Palace"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Goodison Park',
-          city: 'Liverpool',
+          name: "Goodison Park",
+          city: "Liverpool"
         },
-        matchDate: 'Saturday 23 September 2017',
+        matchDate: "Saturday 23 September 2017",
         score: [
           {
-            count: 2,
+            count: 2
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Everton',
+            shortName: "Everton"
           },
           {
-            shortName: 'Bournemouth',
-          },
-        ],
+            shortName: "Bournemouth"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Turf Moor',
-          city: 'Burnley',
+          name: "Turf Moor",
+          city: "Burnley"
         },
-        matchDate: 'Saturday 23 September 2017',
+        matchDate: "Saturday 23 September 2017",
         score: [
           {
-            count: 0,
+            count: 0
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Burnley',
+            shortName: "Burnley"
           },
           {
-            shortName: 'Huddersfield',
-          },
-        ],
-      },
-    ],
+            shortName: "Huddersfield"
+          }
+        ]
+      }
+    ]
   },
   {
-    matchDate: 'Sunday 17 September 2017',
+    matchDate: "Sunday 17 September 2017",
     matchList: [
       {
         ground: {
-          name: 'Stamford Bridge',
-          city: 'London',
+          name: "Stamford Bridge",
+          city: "London"
         },
-        matchDate: 'Sunday 17 September 2017',
+        matchDate: "Sunday 17 September 2017",
         score: [
           {
-            count: 0,
+            count: 0
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Chelsea',
+            shortName: "Chelsea"
           },
           {
-            shortName: 'Arsenal',
-          },
-        ],
+            shortName: "Arsenal"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Old Trafford',
-          city: 'Manchester',
+          name: "Old Trafford",
+          city: "Manchester"
         },
-        matchDate: 'Sunday 17 September 2017',
+        matchDate: "Sunday 17 September 2017",
         score: [
           {
-            count: 4,
+            count: 4
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Man Utd',
+            shortName: "Man Utd"
           },
           {
-            shortName: 'Everton',
-          },
-        ],
-      },
-    ],
+            shortName: "Everton"
+          }
+        ]
+      }
+    ]
   },
   {
-    matchDate: 'Saturday 16 September 2017',
+    matchDate: "Saturday 16 September 2017",
     matchList: [
       {
         ground: {
-          name: 'Selhurst Park',
-          city: 'London',
+          name: "Selhurst Park",
+          city: "London"
         },
-        matchDate: 'Saturday 16 September 2017',
+        matchDate: "Saturday 16 September 2017",
         score: [
           {
-            count: 0,
+            count: 0
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Crystal Palace',
+            shortName: "Crystal Palace"
           },
           {
-            shortName: 'Southampton',
-          },
-        ],
+            shortName: "Southampton"
+          }
+        ]
       },
       {
         ground: {
-          name: 'The Hawthorns',
-          city: 'West Bromwich',
+          name: "The Hawthorns",
+          city: "West Bromwich"
         },
-        matchDate: 'Saturday 16 September 2017',
+        matchDate: "Saturday 16 September 2017",
         score: [
           {
-            count: 0,
+            count: 0
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'West Brom',
+            shortName: "West Brom"
           },
           {
-            shortName: 'West Ham',
-          },
-        ],
+            shortName: "West Ham"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Vicarage Road',
-          city: 'Watford',
+          name: "Vicarage Road",
+          city: "Watford"
         },
-        matchDate: 'Saturday 16 September 2017',
+        matchDate: "Saturday 16 September 2017",
         score: [
           {
-            count: 0,
+            count: 0
           },
           {
-            count: 6,
-          },
+            count: 6
+          }
         ],
         teams: [
           {
-            shortName: 'Watford',
+            shortName: "Watford"
           },
           {
-            shortName: 'Man City',
-          },
-        ],
+            shortName: "Man City"
+          }
+        ]
       },
       {
         ground: {
           name: "St. James' Park",
-          city: 'Newcastle',
+          city: "Newcastle"
         },
-        matchDate: 'Saturday 16 September 2017',
+        matchDate: "Saturday 16 September 2017",
         score: [
           {
-            count: 2,
+            count: 2
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Newcastle',
+            shortName: "Newcastle"
           },
           {
-            shortName: 'Stoke',
-          },
-        ],
+            shortName: "Stoke"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Anfield',
-          city: 'Liverpool',
+          name: "Anfield",
+          city: "Liverpool"
         },
-        matchDate: 'Saturday 16 September 2017',
+        matchDate: "Saturday 16 September 2017",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Liverpool',
+            shortName: "Liverpool"
           },
           {
-            shortName: 'Burnley',
-          },
-        ],
+            shortName: "Burnley"
+          }
+        ]
       },
       {
         ground: {
           name: "John Smith's Stadium",
-          city: 'Huddersfield',
+          city: "Huddersfield"
         },
-        matchDate: 'Saturday 16 September 2017',
+        matchDate: "Saturday 16 September 2017",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Huddersfield',
+            shortName: "Huddersfield"
           },
           {
-            shortName: 'Leicester',
-          },
-        ],
+            shortName: "Leicester"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Wembley Stadium',
-          city: 'London',
+          name: "Wembley Stadium",
+          city: "London"
         },
-        matchDate: 'Saturday 16 September 2017',
+        matchDate: "Saturday 16 September 2017",
         score: [
           {
-            count: 0,
+            count: 0
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Spurs',
+            shortName: "Spurs"
           },
           {
-            shortName: 'Swansea',
-          },
-        ],
-      },
-    ],
+            shortName: "Swansea"
+          }
+        ]
+      }
+    ]
   },
   {
-    matchDate: 'Friday 15 September 2017',
+    matchDate: "Friday 15 September 2017",
     matchList: [
       {
         ground: {
-          name: 'Vitality Stadium',
-          city: 'Bournemouth',
+          name: "Vitality Stadium",
+          city: "Bournemouth"
         },
-        matchDate: 'Friday 15 September 2017',
+        matchDate: "Friday 15 September 2017",
         score: [
           {
-            count: 2,
+            count: 2
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Bournemouth',
+            shortName: "Bournemouth"
           },
           {
-            shortName: 'Brighton',
-          },
-        ],
-      },
-    ],
+            shortName: "Brighton"
+          }
+        ]
+      }
+    ]
   },
   {
-    matchDate: 'Monday 11 September 2017',
+    matchDate: "Monday 11 September 2017",
     matchList: [
       {
         ground: {
-          name: 'London Stadium',
-          city: 'London',
+          name: "London Stadium",
+          city: "London"
         },
-        matchDate: 'Monday 11 September 2017',
+        matchDate: "Monday 11 September 2017",
         score: [
           {
-            count: 2,
+            count: 2
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'West Ham',
+            shortName: "West Ham"
           },
           {
-            shortName: 'Huddersfield',
-          },
-        ],
-      },
-    ],
+            shortName: "Huddersfield"
+          }
+        ]
+      }
+    ]
   },
   {
-    matchDate: 'Sunday 10 September 2017',
+    matchDate: "Sunday 10 September 2017",
     matchList: [
       {
         ground: {
-          name: 'Turf Moor',
-          city: 'Burnley',
+          name: "Turf Moor",
+          city: "Burnley"
         },
-        matchDate: 'Sunday 10 September 2017',
+        matchDate: "Sunday 10 September 2017",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Burnley',
+            shortName: "Burnley"
           },
           {
-            shortName: 'Crystal Palace',
-          },
-        ],
+            shortName: "Crystal Palace"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Liberty Stadium',
-          city: 'Swansea',
+          name: "Liberty Stadium",
+          city: "Swansea"
         },
-        matchDate: 'Sunday 10 September 2017',
+        matchDate: "Sunday 10 September 2017",
         score: [
           {
-            count: 0,
+            count: 0
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Swansea',
+            shortName: "Swansea"
           },
           {
-            shortName: 'Newcastle',
-          },
-        ],
-      },
-    ],
+            shortName: "Newcastle"
+          }
+        ]
+      }
+    ]
   },
   {
-    matchDate: 'Saturday 9 September 2017',
+    matchDate: "Saturday 9 September 2017",
     matchList: [
       {
         ground: {
-          name: 'Etihad Stadium',
-          city: 'Manchester',
+          name: "Etihad Stadium",
+          city: "Manchester"
         },
-        matchDate: 'Saturday 9 September 2017',
+        matchDate: "Saturday 9 September 2017",
         score: [
           {
-            count: 5,
+            count: 5
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Man City',
+            shortName: "Man City"
           },
           {
-            shortName: 'Liverpool',
-          },
-        ],
+            shortName: "Liverpool"
+          }
+        ]
       },
       {
         ground: {
           name: "St. Mary's Stadium",
-          city: 'Southampton',
+          city: "Southampton"
         },
-        matchDate: 'Saturday 9 September 2017',
+        matchDate: "Saturday 9 September 2017",
         score: [
           {
-            count: 0,
+            count: 0
           },
           {
-            count: 2,
-          },
+            count: 2
+          }
         ],
         teams: [
           {
-            shortName: 'Southampton',
+            shortName: "Southampton"
           },
           {
-            shortName: 'Watford',
-          },
-        ],
+            shortName: "Watford"
+          }
+        ]
       },
       {
         ground: {
-          name: 'King Power Stadium',
-          city: 'Leicester',
+          name: "King Power Stadium",
+          city: "Leicester"
         },
-        matchDate: 'Saturday 9 September 2017',
+        matchDate: "Saturday 9 September 2017",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 2,
-          },
+            count: 2
+          }
         ],
         teams: [
           {
-            shortName: 'Leicester',
+            shortName: "Leicester"
           },
           {
-            shortName: 'Chelsea',
-          },
-        ],
+            shortName: "Chelsea"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Goodison Park',
-          city: 'Liverpool',
+          name: "Goodison Park",
+          city: "Liverpool"
         },
-        matchDate: 'Saturday 9 September 2017',
+        matchDate: "Saturday 9 September 2017",
         score: [
           {
-            count: 0,
+            count: 0
           },
           {
-            count: 3,
-          },
+            count: 3
+          }
         ],
         teams: [
           {
-            shortName: 'Everton',
+            shortName: "Everton"
           },
           {
-            shortName: 'Spurs',
-          },
-        ],
+            shortName: "Spurs"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Amex Stadium',
-          city: 'Falmer',
+          name: "Amex Stadium",
+          city: "Falmer"
         },
-        matchDate: 'Saturday 9 September 2017',
+        matchDate: "Saturday 9 September 2017",
         score: [
           {
-            count: 3,
+            count: 3
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Brighton',
+            shortName: "Brighton"
           },
           {
-            shortName: 'West Brom',
-          },
-        ],
+            shortName: "West Brom"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Emirates Stadium',
-          city: 'London',
+          name: "Emirates Stadium",
+          city: "London"
         },
-        matchDate: 'Saturday 9 September 2017',
+        matchDate: "Saturday 9 September 2017",
         score: [
           {
-            count: 3,
+            count: 3
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Arsenal',
+            shortName: "Arsenal"
           },
           {
-            shortName: 'Bournemouth',
-          },
-        ],
+            shortName: "Bournemouth"
+          }
+        ]
       },
       {
         ground: {
-          name: 'bet365 Stadium',
-          city: 'Stoke',
+          name: "bet365 Stadium",
+          city: "Stoke"
         },
-        matchDate: 'Saturday 9 September 2017',
+        matchDate: "Saturday 9 September 2017",
         score: [
           {
-            count: 2,
+            count: 2
           },
           {
-            count: 2,
-          },
+            count: 2
+          }
         ],
         teams: [
           {
-            shortName: 'Stoke',
+            shortName: "Stoke"
           },
           {
-            shortName: 'Man Utd',
-          },
-        ],
-      },
-    ],
+            shortName: "Man Utd"
+          }
+        ]
+      }
+    ]
   },
   {
-    matchDate: 'Sunday 27 August 2017',
+    matchDate: "Sunday 27 August 2017",
     matchList: [
       {
         ground: {
-          name: 'The Hawthorns',
-          city: 'West Bromwich',
+          name: "The Hawthorns",
+          city: "West Bromwich"
         },
-        matchDate: 'Sunday 27 August 2017',
+        matchDate: "Sunday 27 August 2017",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'West Brom',
+            shortName: "West Brom"
           },
           {
-            shortName: 'Stoke',
-          },
-        ],
+            shortName: "Stoke"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Stamford Bridge',
-          city: 'London',
+          name: "Stamford Bridge",
+          city: "London"
         },
-        matchDate: 'Sunday 27 August 2017',
+        matchDate: "Sunday 27 August 2017",
         score: [
           {
-            count: 2,
+            count: 2
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Chelsea',
+            shortName: "Chelsea"
           },
           {
-            shortName: 'Everton',
-          },
-        ],
+            shortName: "Everton"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Wembley Stadium',
-          city: 'London',
+          name: "Wembley Stadium",
+          city: "London"
         },
-        matchDate: 'Sunday 27 August 2017',
+        matchDate: "Sunday 27 August 2017",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Spurs',
+            shortName: "Spurs"
           },
           {
-            shortName: 'Burnley',
-          },
-        ],
+            shortName: "Burnley"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Anfield',
-          city: 'Liverpool',
+          name: "Anfield",
+          city: "Liverpool"
         },
-        matchDate: 'Sunday 27 August 2017',
+        matchDate: "Sunday 27 August 2017",
         score: [
           {
-            count: 4,
+            count: 4
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Liverpool',
+            shortName: "Liverpool"
           },
           {
-            shortName: 'Arsenal',
-          },
-        ],
-      },
-    ],
+            shortName: "Arsenal"
+          }
+        ]
+      }
+    ]
   },
   {
-    matchDate: 'Saturday 26 August 2017',
+    matchDate: "Saturday 26 August 2017",
     matchList: [
       {
         ground: {
-          name: 'Vitality Stadium',
-          city: 'Bournemouth',
+          name: "Vitality Stadium",
+          city: "Bournemouth"
         },
-        matchDate: 'Saturday 26 August 2017',
+        matchDate: "Saturday 26 August 2017",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 2,
-          },
+            count: 2
+          }
         ],
         teams: [
           {
-            shortName: 'Bournemouth',
+            shortName: "Bournemouth"
           },
           {
-            shortName: 'Man City',
-          },
-        ],
+            shortName: "Man City"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Vicarage Road',
-          city: 'Watford',
+          name: "Vicarage Road",
+          city: "Watford"
         },
-        matchDate: 'Saturday 26 August 2017',
+        matchDate: "Saturday 26 August 2017",
         score: [
           {
-            count: 0,
+            count: 0
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Watford',
+            shortName: "Watford"
           },
           {
-            shortName: 'Brighton',
-          },
-        ],
+            shortName: "Brighton"
+          }
+        ]
       },
       {
         ground: {
           name: "St. James' Park",
-          city: 'Newcastle',
+          city: "Newcastle"
         },
-        matchDate: 'Saturday 26 August 2017',
+        matchDate: "Saturday 26 August 2017",
         score: [
           {
-            count: 3,
+            count: 3
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Newcastle',
+            shortName: "Newcastle"
           },
           {
-            shortName: 'West Ham',
-          },
-        ],
+            shortName: "West Ham"
+          }
+        ]
       },
       {
         ground: {
           name: "John Smith's Stadium",
-          city: 'Huddersfield',
+          city: "Huddersfield"
         },
-        matchDate: 'Saturday 26 August 2017',
+        matchDate: "Saturday 26 August 2017",
         score: [
           {
-            count: 0,
+            count: 0
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Huddersfield',
+            shortName: "Huddersfield"
           },
           {
-            shortName: 'Southampton',
-          },
-        ],
+            shortName: "Southampton"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Selhurst Park',
-          city: 'London',
+          name: "Selhurst Park",
+          city: "London"
         },
-        matchDate: 'Saturday 26 August 2017',
+        matchDate: "Saturday 26 August 2017",
         score: [
           {
-            count: 0,
+            count: 0
           },
           {
-            count: 2,
-          },
+            count: 2
+          }
         ],
         teams: [
           {
-            shortName: 'Crystal Palace',
+            shortName: "Crystal Palace"
           },
           {
-            shortName: 'Swansea',
-          },
-        ],
+            shortName: "Swansea"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Old Trafford',
-          city: 'Manchester',
+          name: "Old Trafford",
+          city: "Manchester"
         },
-        matchDate: 'Saturday 26 August 2017',
+        matchDate: "Saturday 26 August 2017",
         score: [
           {
-            count: 2,
+            count: 2
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Man Utd',
+            shortName: "Man Utd"
           },
           {
-            shortName: 'Leicester',
-          },
-        ],
-      },
-    ],
+            shortName: "Leicester"
+          }
+        ]
+      }
+    ]
   },
   {
-    matchDate: 'Monday 21 August 2017',
+    matchDate: "Monday 21 August 2017",
     matchList: [
       {
         ground: {
-          name: 'Etihad Stadium',
-          city: 'Manchester',
+          name: "Etihad Stadium",
+          city: "Manchester"
         },
-        matchDate: 'Monday 21 August 2017',
+        matchDate: "Monday 21 August 2017",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Man City',
+            shortName: "Man City"
           },
           {
-            shortName: 'Everton',
-          },
-        ],
-      },
-    ],
+            shortName: "Everton"
+          }
+        ]
+      }
+    ]
   },
   {
-    matchDate: 'Sunday 20 August 2017',
+    matchDate: "Sunday 20 August 2017",
     matchList: [
       {
         ground: {
           name: "John Smith's Stadium",
-          city: 'Huddersfield',
+          city: "Huddersfield"
         },
-        matchDate: 'Sunday 20 August 2017',
+        matchDate: "Sunday 20 August 2017",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Huddersfield',
+            shortName: "Huddersfield"
           },
           {
-            shortName: 'Newcastle',
-          },
-        ],
+            shortName: "Newcastle"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Wembley Stadium',
-          city: 'London',
+          name: "Wembley Stadium",
+          city: "London"
         },
-        matchDate: 'Sunday 20 August 2017',
+        matchDate: "Sunday 20 August 2017",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 2,
-          },
+            count: 2
+          }
         ],
         teams: [
           {
-            shortName: 'Spurs',
+            shortName: "Spurs"
           },
           {
-            shortName: 'Chelsea',
-          },
-        ],
-      },
-    ],
+            shortName: "Chelsea"
+          }
+        ]
+      }
+    ]
   },
   {
-    matchDate: 'Saturday 19 August 2017',
+    matchDate: "Saturday 19 August 2017",
     matchList: [
       {
         ground: {
-          name: 'Liberty Stadium',
-          city: 'Swansea',
+          name: "Liberty Stadium",
+          city: "Swansea"
         },
-        matchDate: 'Saturday 19 August 2017',
+        matchDate: "Saturday 19 August 2017",
         score: [
           {
-            count: 0,
+            count: 0
           },
           {
-            count: 4,
-          },
+            count: 4
+          }
         ],
         teams: [
           {
-            shortName: 'Swansea',
+            shortName: "Swansea"
           },
           {
-            shortName: 'Man Utd',
-          },
-        ],
+            shortName: "Man Utd"
+          }
+        ]
       },
       {
         ground: {
           name: "St. Mary's Stadium",
-          city: 'Southampton',
+          city: "Southampton"
         },
-        matchDate: 'Saturday 19 August 2017',
+        matchDate: "Saturday 19 August 2017",
         score: [
           {
-            count: 3,
+            count: 3
           },
           {
-            count: 2,
-          },
+            count: 2
+          }
         ],
         teams: [
           {
-            shortName: 'Southampton',
+            shortName: "Southampton"
           },
           {
-            shortName: 'West Ham',
-          },
-        ],
+            shortName: "West Ham"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Anfield',
-          city: 'Liverpool',
+          name: "Anfield",
+          city: "Liverpool"
         },
-        matchDate: 'Saturday 19 August 2017',
+        matchDate: "Saturday 19 August 2017",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Liverpool',
+            shortName: "Liverpool"
           },
           {
-            shortName: 'Crystal Palace',
-          },
-        ],
+            shortName: "Crystal Palace"
+          }
+        ]
       },
       {
         ground: {
-          name: 'King Power Stadium',
-          city: 'Leicester',
+          name: "King Power Stadium",
+          city: "Leicester"
         },
-        matchDate: 'Saturday 19 August 2017',
+        matchDate: "Saturday 19 August 2017",
         score: [
           {
-            count: 2,
+            count: 2
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Leicester',
+            shortName: "Leicester"
           },
           {
-            shortName: 'Brighton',
-          },
-        ],
+            shortName: "Brighton"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Turf Moor',
-          city: 'Burnley',
+          name: "Turf Moor",
+          city: "Burnley"
         },
-        matchDate: 'Saturday 19 August 2017',
+        matchDate: "Saturday 19 August 2017",
         score: [
           {
-            count: 0,
+            count: 0
           },
           {
-            count: 1,
-          },
+            count: 1
+          }
         ],
         teams: [
           {
-            shortName: 'Burnley',
+            shortName: "Burnley"
           },
           {
-            shortName: 'West Brom',
-          },
-        ],
+            shortName: "West Brom"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Vitality Stadium',
-          city: 'Bournemouth',
+          name: "Vitality Stadium",
+          city: "Bournemouth"
         },
-        matchDate: 'Saturday 19 August 2017',
+        matchDate: "Saturday 19 August 2017",
         score: [
           {
-            count: 0,
+            count: 0
           },
           {
-            count: 2,
-          },
+            count: 2
+          }
         ],
         teams: [
           {
-            shortName: 'Bournemouth',
+            shortName: "Bournemouth"
           },
           {
-            shortName: 'Watford',
-          },
-        ],
+            shortName: "Watford"
+          }
+        ]
       },
       {
         ground: {
-          name: 'bet365 Stadium',
-          city: 'Stoke',
+          name: "bet365 Stadium",
+          city: "Stoke"
         },
-        matchDate: 'Saturday 19 August 2017',
+        matchDate: "Saturday 19 August 2017",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Stoke',
+            shortName: "Stoke"
           },
           {
-            shortName: 'Arsenal',
-          },
-        ],
-      },
-    ],
+            shortName: "Arsenal"
+          }
+        ]
+      }
+    ]
   },
   {
-    matchDate: 'Sunday 13 August 2017',
+    matchDate: "Sunday 13 August 2017",
     matchList: [
       {
         ground: {
           name: "St. James' Park",
-          city: 'Newcastle',
+          city: "Newcastle"
         },
-        matchDate: 'Sunday 13 August 2017',
+        matchDate: "Sunday 13 August 2017",
         score: [
           {
-            count: 0,
+            count: 0
           },
           {
-            count: 2,
-          },
+            count: 2
+          }
         ],
         teams: [
           {
-            shortName: 'Newcastle',
+            shortName: "Newcastle"
           },
           {
-            shortName: 'Spurs',
-          },
-        ],
+            shortName: "Spurs"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Old Trafford',
-          city: 'Manchester',
+          name: "Old Trafford",
+          city: "Manchester"
         },
-        matchDate: 'Sunday 13 August 2017',
+        matchDate: "Sunday 13 August 2017",
         score: [
           {
-            count: 4,
+            count: 4
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Man Utd',
+            shortName: "Man Utd"
           },
           {
-            shortName: 'West Ham',
-          },
-        ],
-      },
-    ],
+            shortName: "West Ham"
+          }
+        ]
+      }
+    ]
   },
   {
-    matchDate: 'Saturday 12 August 2017',
+    matchDate: "Saturday 12 August 2017",
     matchList: [
       {
         ground: {
-          name: 'Vicarage Road',
-          city: 'Watford',
+          name: "Vicarage Road",
+          city: "Watford"
         },
-        matchDate: 'Saturday 12 August 2017',
+        matchDate: "Saturday 12 August 2017",
         score: [
           {
-            count: 3,
+            count: 3
           },
           {
-            count: 3,
-          },
+            count: 3
+          }
         ],
         teams: [
           {
-            shortName: 'Watford',
+            shortName: "Watford"
           },
           {
-            shortName: 'Liverpool',
-          },
-        ],
+            shortName: "Liverpool"
+          }
+        ]
       },
       {
         ground: {
-          name: 'The Hawthorns',
-          city: 'West Bromwich',
+          name: "The Hawthorns",
+          city: "West Bromwich"
         },
-        matchDate: 'Saturday 12 August 2017',
+        matchDate: "Saturday 12 August 2017",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'West Brom',
+            shortName: "West Brom"
           },
           {
-            shortName: 'Bournemouth',
-          },
-        ],
+            shortName: "Bournemouth"
+          }
+        ]
       },
       {
         ground: {
           name: "St. Mary's Stadium",
-          city: 'Southampton',
+          city: "Southampton"
         },
-        matchDate: 'Saturday 12 August 2017',
+        matchDate: "Saturday 12 August 2017",
         score: [
           {
-            count: 0,
+            count: 0
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Southampton',
+            shortName: "Southampton"
           },
           {
-            shortName: 'Swansea',
-          },
-        ],
+            shortName: "Swansea"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Goodison Park',
-          city: 'Liverpool',
+          name: "Goodison Park",
+          city: "Liverpool"
         },
-        matchDate: 'Saturday 12 August 2017',
+        matchDate: "Saturday 12 August 2017",
         score: [
           {
-            count: 1,
+            count: 1
           },
           {
-            count: 0,
-          },
+            count: 0
+          }
         ],
         teams: [
           {
-            shortName: 'Everton',
+            shortName: "Everton"
           },
           {
-            shortName: 'Stoke',
-          },
-        ],
+            shortName: "Stoke"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Selhurst Park',
-          city: 'London',
+          name: "Selhurst Park",
+          city: "London"
         },
-        matchDate: 'Saturday 12 August 2017',
+        matchDate: "Saturday 12 August 2017",
         score: [
           {
-            count: 0,
+            count: 0
           },
           {
-            count: 3,
-          },
+            count: 3
+          }
         ],
         teams: [
           {
-            shortName: 'Crystal Palace',
+            shortName: "Crystal Palace"
           },
           {
-            shortName: 'Huddersfield',
-          },
-        ],
+            shortName: "Huddersfield"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Stamford Bridge',
-          city: 'London',
+          name: "Stamford Bridge",
+          city: "London"
         },
-        matchDate: 'Saturday 12 August 2017',
+        matchDate: "Saturday 12 August 2017",
         score: [
           {
-            count: 2,
+            count: 2
           },
           {
-            count: 3,
-          },
+            count: 3
+          }
         ],
         teams: [
           {
-            shortName: 'Chelsea',
+            shortName: "Chelsea"
           },
           {
-            shortName: 'Burnley',
-          },
-        ],
+            shortName: "Burnley"
+          }
+        ]
       },
       {
         ground: {
-          name: 'Amex Stadium',
-          city: 'Falmer',
+          name: "Amex Stadium",
+          city: "Falmer"
         },
-        matchDate: 'Saturday 12 August 2017',
+        matchDate: "Saturday 12 August 2017",
         score: [
           {
-            count: 0,
+            count: 0
           },
           {
-            count: 2,
-          },
+            count: 2
+          }
         ],
         teams: [
           {
-            shortName: 'Brighton',
+            shortName: "Brighton"
           },
           {
-            shortName: 'Man City',
-          },
-        ],
-      },
-    ],
+            shortName: "Man City"
+          }
+        ]
+      }
+    ]
   },
   {
-    matchDate: 'Friday 11 August 2017',
+    matchDate: "Friday 11 August 2017",
     matchList: [
       {
         ground: {
-          name: 'Emirates Stadium',
-          city: 'London',
+          name: "Emirates Stadium",
+          city: "London"
         },
-        matchDate: 'Friday 11 August 2017',
+        matchDate: "Friday 11 August 2017",
         score: [
           {
-            count: 4,
+            count: 4
           },
           {
-            count: 3,
-          },
+            count: 3
+          }
         ],
         teams: [
           {
-            shortName: 'Arsenal',
+            shortName: "Arsenal"
           },
           {
-            shortName: 'Leicester',
-          },
-        ],
-      },
-    ],
-  },
+            shortName: "Leicester"
+          }
+        ]
+      }
+    ]
+  }
 ];
-
-export default results;
