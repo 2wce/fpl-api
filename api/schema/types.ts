@@ -22,10 +22,10 @@ const types = gql`
     won: Int
     drawn: Int
     lost: Int
-    goals: Goal
     points: Int
-    form: [Fixture]
-    nextMatch: Fixture
+    goals: Goal
+    form: [Match]
+    nextMatch: Match
   }
 
   type Fixture {
@@ -37,7 +37,7 @@ const types = gql`
   type Goal {
     for: Int
     against: Int
-    difference: String
+    difference: Int
   }
 
   type Position {
@@ -51,8 +51,11 @@ const types = gql`
     ground: Ground
     kickoff: String
     matchDate: String
+    status: Status
     homeTeam: Club
     awayTeam: Club
+    winner: Club
+    loser: Club
     score: Score
   }
 
@@ -74,6 +77,13 @@ const types = gql`
     name: String
     number: Int
     position: String
+  }
+
+  enum Status {
+    won
+    drawn
+    unplayed
+    postponed
   }
 `;
 
