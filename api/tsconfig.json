@@ -4,9 +4,11 @@
     "moduleResolution": "node",
     "target": "es2017",
     "outDir": "dist",
-    "lib": ["esnext", "ES6"],
+    "lib": ["esnext", "ES6", "ES2015"],
     "esModuleInterop": true,
-    "emitDecoratorMetadata": true
+    "emitDecoratorMetadata": true,
+    "types": ["reflect-metadata", "jest"],
+    "typeRoots": ["./node_modules/@types"]
   },
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules", "**/*.spec.ts"]
 }
