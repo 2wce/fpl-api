@@ -8,22 +8,31 @@ import {
 } from "typeorm";
 import { Club } from "./club";
 import { Fixture } from "./fixture";
-import { Ground } from "./ground";
+import { Stadium } from "./stadium";
 
+export type MatchStatus = "won" | "drawn" | "unplayed" | "postponed";
 @Entity()
 export class Match {
   @PrimaryGeneratedColumn("uuid")
   id: string;
 
-  @OneToOne(type => Ground)
+  @OneToOne(type => Stadium)
   @JoinColumn()
-  ground: Ground;
+  stadium: Stadium;
 
   @Column()
   kickoff: string;
 
-  @Column()
+  @Column("datetime")
   matchDate: string;
+
+  // 1st number is always the home team score
+  @Column("simple-array")
+  score: number[];
+
+  // options: ["won", "drawn", "unplayed", "postponed"],
+  @Column()
+  status: string;
 
   @OneToOne(type => Club)
   @JoinColumn()
@@ -32,6 +41,14 @@ export class Match {
   @OneToOne(type => Club)
   @JoinColumn()
   awayTeam: Club;
+
+  @OneToOne(type => Club)
+  @JoinColumn()
+  winner: Club;
+
+  @OneToOne(type => Club)
+  @JoinColumn()
+  loser: Club;
 
   @ManyToOne(
     type => Fixture,

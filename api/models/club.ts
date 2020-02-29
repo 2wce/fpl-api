@@ -6,8 +6,8 @@ import {
   OneToOne,
   PrimaryGeneratedColumn
 } from "typeorm";
-import { Ground } from "./ground";
 import { Player } from "./player";
+import { Stadium } from "./stadium";
 
 @Entity()
 export class Club {
@@ -16,9 +16,6 @@ export class Club {
 
   @Column()
   badge: string;
-
-  @Column()
-  key: string;
 
   @Column()
   name: string;
@@ -32,9 +29,9 @@ export class Club {
   @Column()
   website: string;
 
-  @OneToOne(type => Ground)
+  @OneToOne(type => Stadium)
   @JoinColumn()
-  stadium: Ground;
+  stadium: Stadium;
 
   @OneToMany(
     type => Player,

@@ -6,7 +6,7 @@ export class Fixture {
   @PrimaryGeneratedColumn("uuid")
   id: string;
 
-  @Column()
+  @Column("datetime")
   matchDate: string;
 
   @OneToMany(
